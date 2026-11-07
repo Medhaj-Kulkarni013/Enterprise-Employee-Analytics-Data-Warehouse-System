@@ -12,3 +12,5 @@ data/synthetic/*
 !data/synthetic/employees_sample_500.csv
 reports/*
 !reports/.gitkeep
+
+.gitignore
