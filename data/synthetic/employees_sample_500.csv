@@ -1,0 +1,501 @@
+employee_id,employee_code,source_employee_number,first_name,last_name,email,gender,date_of_birth,marital_status,education_level,education_field,distance_from_home_km,num_companies_worked,prior_experience_years,stock_option_level,business_travel,overtime_flag,hire_date,department,job_role,job_level,monthly_income,manager_id,is_active,termination_date,performance_rating,percent_salary_hike,training_times_last_year,job_satisfaction,environment_satisfaction,relationship_satisfaction,work_life_balance,job_involvement
+75722,E075722,1886,Matthew,Parsa,e075722@example.com,Female,1992-10-03,Married,2,Other,16,0,2,0,Travel_Rarely,1,2022-06-02,Research & Development,Manufacturing Director,2,5451,12017,1,,3,11,2,2,4,4,3,2
+80185,E080185,1185,Azad,Kanda,e080185@example.com,Male,1989-02-17,Married,4,Other,4,1,0,1,Travel_Frequently,0,2022-12-16,Research & Development,Laboratory Technician,1,2230,81452,1,,3,13,2,2,4,2,3,2
+19865,E019865,571,Udyati,Bhardwaj,e019865@example.com,Female,1995-12-29,Single,3,Medical,2,0,2,0,Non-Travel,0,2015-04-02,Research & Development,Laboratory Technician,1,2352,40320,1,,3,14,2,2,3,3,2,3
+76700,E076700,429,Qadim,Devi,e076700@example.com,Male,1985-07-20,Married,1,Medical,10,1,1,0,Travel_Rarely,1,2004-06-29,Research & Development,Manager,4,17138,2612,1,,3,14,3,1,3,4,3,3
+92992,E092992,1911,Netra,Narain,e092992@example.com,Male,1984-05-19,Married,3,Medical,6,9,5,1,Travel_Rarely,0,2012-09-18,Research & Development,Research Director,3,11974,77790,1,,3,13,3,1,3,2,3,3
+76435,E076435,14,Anmol,Padmanabhan,e076435@example.com,Male,1988-01-13,Married,3,Medical,16,0,2,1,Travel_Rarely,0,2021-06-13,Research & Development,Laboratory Technician,1,2207,10893,1,,3,13,5,3,1,3,3,4
+84005,E084005,1401,Meera,Devan,e084005@example.com,Female,1973-11-15,Married,2,Medical,28,2,18,1,Travel_Frequently,1,2020-03-20,Research & Development,Manufacturing Director,4,14502,54592,1,,3,11,3,3,4,2,2,4
+80918,E080918,1013,Abhiram,Ramaswamy,e080918@example.com,Female,1971-06-15,Married,3,Technical Degree,17,8,13,1,Travel_Rarely,0,2015-12-25,Research & Development,Manufacturing Director,3,11325,98571,1,,3,11,2,3,3,3,3,3
+60768,E060768,1152,Qabil,Bahl,e060768@example.com,Male,1986-02-11,Married,3,Human Resources,1,1,0,1,Travel_Rarely,0,2017-06-19,Human Resources,Human Resources,1,3317,77578,1,,3,13,2,3,3,4,4,4
+50075,E050075,1539,Hemani,Patla,e050075@example.com,Male,1974-11-06,Single,5,Medical,22,1,0,0,Travel_Frequently,1,1992-11-06,Research & Development,Research Director,4,14941,67592,1,,3,13,2,4,3,4,3,1
+27702,E027702,1161,Yuvraj,Kamdar,e027702@example.com,Female,1989-04-06,Divorced,2,Medical,25,7,4,2,Travel_Rarely,0,2020-04-02,Research & Development,Healthcare Representative,2,5421,12999,1,,3,13,2,4,3,3,3,2
+42142,E042142,1948,Karan,Chauhan,e042142@example.com,Male,1996-10-17,Divorced,2,Medical,3,1,2,1,Non-Travel,1,2022-01-21,Research & Development,Research Scientist,1,3121,5318,1,,3,13,3,1,3,4,4,3
+45081,E045081,1307,Gaurang,Soni,e045081@example.com,Female,1985-01-08,Divorced,4,Medical,13,6,2,2,Travel_Rarely,1,2006-06-21,Research & Development,Manager,4,15827,782,1,,3,13,4,2,3,4,3,2
+16639,E016639,1107,Baljiwan,Dugar,e016639@example.com,Male,1998-12-10,Divorced,3,Medical,21,1,1,1,Travel_Rarely,0,2024-09-19,Research & Development,Laboratory Technician,1,2243,77222,0,2025-02-04,4,20,0,3,1,3,2,3
+20425,E020425,462,Neelima,Bera,e020425@example.com,Female,1993-07-19,Single,4,Medical,7,1,2,0,Travel_Rarely,1,2015-02-18,Research & Development,Manufacturing Director,3,7065,77977,1,,3,14,5,4,3,3,2,3
+88703,E088703,1845,Brinda,Barad,e088703@example.com,Female,1980-04-01,Married,4,Life Sciences,2,4,1,2,Non-Travel,0,2016-04-27,Sales,Sales Executive,2,5806,10283,1,,4,22,3,3,3,2,4,3
+150,E000150,653,Mohini,Suresh,e000150@example.com,Male,1995-09-29,Divorced,4,Medical,6,4,6,2,Travel_Rarely,0,2019-07-22,Sales,Sales Executive,2,5175,50842,1,,4,22,4,4,1,4,4,4
+1762,E001762,1025,Neelima,Ravi,e001762@example.com,Female,1985-06-25,Single,2,Medical,7,6,6,0,Travel_Rarely,0,2023-06-30,Research & Development,Manufacturing Director,2,5335,3908,1,,3,14,6,3,4,1,2,3
+63121,E063121,119,Divya,Hegde,e063121@example.com,Male,1983-02-27,Married,4,Life Sciences,1,1,0,1,Travel_Frequently,0,2004-03-13,Research & Development,Healthcare Representative,4,15185,71132,1,,4,22,3,2,3,2,2,2
+69162,E069162,1815,Divya,Borra,e069162@example.com,Female,1982-05-16,Divorced,1,Marketing,4,0,1,1,Travel_Rarely,1,2004-04-18,Sales,Sales Executive,3,10958,32375,1,,3,13,3,3,3,4,4,3
+64884,E064884,630,Ikbal,Sant,e064884@example.com,Male,1973-12-11,Divorced,2,Technical Degree,6,3,9,2,Travel_Rarely,1,2015-10-28,Research & Development,Research Scientist,2,5799,47400,1,,3,12,3,1,4,2,3,3
+2496,E002496,258,Quincy,Ganguly,e002496@example.com,Female,1975-12-31,Single,3,Medical,3,3,13,0,Travel_Rarely,0,2018-02-03,Research & Development,Healthcare Representative,4,13558,46631,1,,3,18,6,2,2,3,3,3
+80297,E080297,2016,Vyanjana,Setty,e080297@example.com,Female,1992-05-21,Married,4,Marketing,1,1,2,2,Travel_Rarely,0,2012-09-14,Sales,Sales Executive,3,8947,26231,1,,3,19,3,4,3,3,3,3
+19448,E019448,1784,Balhaar,Sama,e019448@example.com,Female,1993-10-22,Married,4,Marketing,29,1,2,2,Travel_Rarely,0,2014-11-27,Sales,Sales Executive,2,4702,79572,1,,3,14,3,4,1,1,3,2
+41332,E041332,1719,Ekantika,Seth,e041332@example.com,Female,1981-04-07,Single,2,Technical Degree,28,1,1,0,Travel_Rarely,0,2004-07-09,Research & Development,Research Director,4,15564,4399,1,,3,11,2,2,3,3,3,2
+14889,E014889,1068,Aarav,Ravel,e014889@example.com,Female,1997-09-09,Divorced,1,Medical,1,1,0,2,Travel_Frequently,0,2019-06-03,Research & Development,Research Scientist,1,2288,63809,1,,3,13,5,1,1,3,3,2
+88637,E088637,1380,Tanvi,Keer,e088637@example.com,Female,1990-06-13,Married,4,Marketing,18,0,1,1,Travel_Frequently,1,2020-11-02,Sales,Sales Executive,2,4752,92499,0,2022-10-08,3,18,0,3,4,4,2,3
+94893,E094893,12,Siya,Sastry,e094893@example.com,Male,1988-04-08,Single,3,Life Sciences,23,0,0,0,Travel_Frequently,0,2016-10-10,Research & Development,Manufacturing Director,3,9751,38451,1,,4,21,2,3,4,2,3,2
+92732,E092732,1641,Yahvi,Sampath,e092732@example.com,Female,1983-01-04,Single,3,Life Sciences,16,6,15,0,Travel_Rarely,1,2022-01-13,Research & Development,Manufacturing Director,3,8281,91383,1,,3,15,2,4,3,4,2,3
+29131,E029131,1671,Wishi,Bora,e029131@example.com,Male,1992-05-10,Divorced,3,Medical,2,0,1,2,Travel_Rarely,0,2017-03-13,Research & Development,Research Scientist,2,4749,46127,1,,3,13,4,2,3,3,2,3
+79023,E079023,1554,Shivansh,Mukhopadhyay,e079023@example.com,Female,1988-10-01,Married,4,Life Sciences,28,0,1,2,Travel_Rarely,0,2019-05-08,Sales,Sales Representative,1,2226,87443,1,,4,23,5,3,2,1,3,2
+84937,E084937,342,Girindra,Radhakrishnan,e084937@example.com,Male,1988-03-12,Divorced,3,Medical,10,6,14,2,Travel_Frequently,0,2023-03-23,Research & Development,Manufacturing Director,3,9789,43932,0,2025-04-12,3,11,5,3,1,2,3,3
+16822,E016822,1344,Aarna,Mittal,e016822@example.com,Male,1993-09-24,Divorced,3,Life Sciences,9,0,1,1,Travel_Rarely,0,2015-07-08,Research & Development,Healthcare Representative,3,9553,59046,1,,3,11,0,4,4,4,2,3
+36734,E036734,515,Robert,Sinha,e036734@example.com,Female,1988-10-20,Divorced,3,Life Sciences,14,1,0,1,Travel_Rarely,0,2006-10-20,Research & Development,Laboratory Technician,1,3463,78109,1,,3,12,2,1,4,4,2,3
+15603,E015603,1314,Mohammed,Nagarajan,e015603@example.com,Female,1979-05-02,Single,2,Life Sciences,1,6,4,0,Travel_Rarely,0,2019-07-21,Human Resources,Human Resources,1,3573,66651,1,,3,12,3,1,4,3,3,3
+28534,E028534,333,Praneel,Chauhan,e028534@example.com,Male,1993-01-08,Married,4,Marketing,26,0,2,0,Non-Travel,0,2022-06-17,Sales,Sales Executive,2,4483,66102,1,,3,18,2,4,3,1,3,3
+69770,E069770,815,Rushil,Kade,e069770@example.com,Male,1973-11-28,Married,3,Medical,2,5,26,0,Travel_Rarely,0,2020-09-30,Research & Development,Research Director,4,15239,11614,1,,3,16,3,3,3,4,3,3
+11406,E011406,941,Meghana,Sharaf,e011406@example.com,Male,1995-03-15,Married,4,Life Sciences,7,3,4,0,Travel_Rarely,0,2017-12-07,Sales,Sales Representative,1,2498,9248,1,,3,15,2,4,2,2,4,2
+96853,E096853,987,Kiaan,Chacko,e096853@example.com,Male,1977-02-17,Divorced,4,Medical,16,1,1,0,Travel_Frequently,1,2005-06-19,Research & Development,Manufacturing Director,2,5336,42372,1,,3,19,3,4,3,3,4,4
+16131,E016131,1152,Sathvik,Vora,e016131@example.com,Male,1988-09-18,Married,3,Human Resources,1,1,0,1,Travel_Rarely,0,2018-12-30,Human Resources,Human Resources,1,2797,38600,1,,3,13,2,3,3,4,4,4
+19793,E019793,851,Bakhshi,Keer,e019793@example.com,Female,1974-04-29,Married,4,Marketing,26,2,8,1,Travel_Rarely,0,2004-12-01,Sales,Manager,4,15244,39324,1,,3,14,2,3,1,3,2,3
+89578,E089578,286,Jagdish,Guha,e089578@example.com,Female,1989-11-25,Single,1,Medical,18,1,0,0,Travel_Frequently,0,2017-03-07,Research & Development,Laboratory Technician,1,1982,93292,1,,3,13,2,2,2,1,3,3
+40164,E040164,1747,Adya,Varkey,e040164@example.com,Female,1993-07-10,Divorced,3,Human Resources,8,6,2,1,Travel_Frequently,0,2021-08-19,Human Resources,Human Resources,1,2175,8268,0,2023-10-04,3,11,2,4,3,3,2,2
+31777,E031777,960,Jai,Malhotra,e031777@example.com,Male,2004-09-14,Single,3,Technical Degree,4,1,2,0,Travel_Rarely,0,2025-06-04,Research & Development,Laboratory Technician,1,3033,24762,0,2025-10-28,3,19,2,2,1,2,3,3
+25331,E025331,120,Hemangini,Talwar,e025331@example.com,Male,1972-09-14,Single,4,Marketing,21,0,2,0,Travel_Rarely,1,2015-09-22,Sales,Sales Executive,2,5419,2014,1,,4,22,2,4,3,4,3,3
+79157,E079157,1210,Aradhana,Srinivasan,e079157@example.com,Male,1984-11-11,Divorced,2,Life Sciences,5,6,3,1,Non-Travel,0,2023-03-26,Research & Development,Research Scientist,1,2162,81620,0,2025-09-23,3,17,2,1,1,1,1,2
+51686,E051686,184,Lopa,Halder,e051686@example.com,Male,1994-07-10,Married,3,Human Resources,9,0,2,0,Travel_Rarely,1,2014-11-15,Human Resources,Human Resources,2,7517,37114,1,,3,19,2,4,3,3,1,3
+75499,E075499,483,Ekaja,Taneja,e075499@example.com,Female,1987-08-19,Married,4,Life Sciences,10,3,4,1,Travel_Rarely,1,2019-11-18,Research & Development,Laboratory Technician,1,2334,38373,1,,3,13,3,4,4,3,3,4
+4728,E004728,854,Sara,Sem,e004728@example.com,Male,1998-09-09,Single,1,Medical,2,7,3,0,Travel_Rarely,0,2021-07-22,Research & Development,Research Scientist,1,3532,55652,1,,3,13,3,1,1,3,2,4
+85199,E085199,1760,Aayush,Trivedi,e085199@example.com,Female,1987-07-01,Married,2,Medical,2,4,2,1,Travel_Frequently,0,2018-02-04,Research & Development,Laboratory Technician,1,2254,98484,1,,3,14,4,2,3,2,2,2
+35796,E035796,247,Qushi,Raj,e035796@example.com,Female,1989-10-23,Single,2,Medical,27,2,5,0,Travel_Rarely,0,2022-09-28,Research & Development,Research Scientist,1,2329,5418,1,,3,15,3,2,4,4,3,3
+12257,E012257,1572,Krishna,Oak,e012257@example.com,Female,1971-06-14,Married,5,Technical Degree,2,0,3,1,Travel_Rarely,0,1993-05-30,Research & Development,Manufacturing Director,3,9014,57099,0,2002-04-25,3,16,4,4,3,2,3,2
+35719,E035719,300,Amruta,Sangha,e035719@example.com,Male,1994-07-07,Single,3,Technical Degree,1,0,1,0,Travel_Rarely,0,2018-01-13,Research & Development,Research Scientist,1,2297,96245,0,2024-03-01,3,14,1,3,3,4,2,3
+70552,E070552,1004,Irya,Saini,e070552@example.com,Female,1996-03-29,Married,3,Life Sciences,22,4,3,0,Travel_Rarely,1,2021-03-01,Research & Development,Research Scientist,1,2111,92061,0,2022-09-10,3,11,2,3,1,2,1,3
+54375,E054375,64,Abha,Sunder,e054375@example.com,Male,1978-12-24,Single,2,Life Sciences,1,9,23,0,Travel_Rarely,1,2024-01-23,Research & Development,Laboratory Technician,3,5210,79206,0,2025-02-14,3,13,2,3,1,4,3,2
+39692,E039692,353,Omaja,Mahajan,e039692@example.com,Male,1973-09-26,Married,3,Life Sciences,1,1,1,0,Travel_Rarely,0,2025-06-08,Research & Development,Research Scientist,1,2849,90632,1,,3,11,0,2,3,2,2,3
+93703,E093703,1125,Zayan,Dixit,e093703@example.com,Male,1988-04-26,Single,2,Marketing,2,7,7,0,Travel_Rarely,0,2023-08-13,Sales,Sales Executive,3,8197,64412,1,,3,16,2,2,4,1,3,3
+73692,E073692,1487,Ijaya,Ganesan,e073692@example.com,Female,1994-02-28,Single,3,Technical Degree,13,5,2,0,Travel_Frequently,0,2021-06-27,Sales,Sales Executive,2,5651,44571,0,2024-06-02,3,11,4,2,1,1,1,3
+98071,E098071,1,Charvi,Pandey,e098071@example.com,Female,1982-03-06,Single,2,Life Sciences,1,8,3,0,Travel_Rarely,1,2020-01-13,Sales,Sales Executive,2,5691,80480,0,2024-01-09,3,11,0,4,2,1,1,3
+576,E000576,1760,Osha,Vig,e000576@example.com,Female,1987-12-24,Married,2,Medical,2,4,4,1,Travel_Frequently,0,2020-02-25,Research & Development,Laboratory Technician,1,2486,50565,1,,3,14,4,2,3,2,2,2
+84611,E084611,230,Triveni,Bhandari,e084611@example.com,Female,1989-11-25,Single,4,Life Sciences,1,4,4,0,Travel_Rarely,0,2017-01-22,Sales,Sales Executive,2,8802,90252,1,,4,22,2,3,1,3,4,2
+61770,E061770,1282,Pahal,Pathak,e061770@example.com,Male,1975-11-22,Divorced,3,Life Sciences,9,4,2,1,Travel_Frequently,1,1996-11-22,Sales,Manager,5,18854,,1,,4,24,5,2,4,1,2,3
+32261,E032261,564,Oscar,Sahota,e032261@example.com,Male,1997-12-02,Married,4,Medical,3,1,0,0,Travel_Rarely,0,2015-12-02,Research & Development,Research Director,3,10985,79155,1,,3,18,2,3,2,3,3,2
+82200,E082200,1221,Finn,Kant,e082200@example.com,Male,1988-03-09,Divorced,4,Life Sciences,6,1,1,1,Travel_Rarely,0,2018-06-29,Research & Development,Laboratory Technician,1,3225,77384,1,,3,14,4,3,3,3,3,1
+36291,E036291,1585,Jhalak,Talwar,e036291@example.com,Female,1990-08-20,Single,4,Life Sciences,1,6,13,0,Travel_Rarely,0,2024-02-21,Sales,Sales Executive,2,7388,70766,1,,3,13,5,3,2,3,3,3
+78450,E078450,1982,Lekha,Kara,e078450@example.com,Male,2003-10-11,Single,2,Other,12,1,0,0,Travel_Rarely,0,2021-10-11,Research & Development,Laboratory Technician,1,2389,39577,1,,3,13,6,4,1,3,4,3
+60056,E060056,1334,Aarav,Soni,e060056@example.com,Male,1985-10-23,Married,1,Life Sciences,2,0,1,0,Non-Travel,1,2005-07-03,Research & Development,Manager,4,17924,76546,1,,3,13,3,3,3,4,2,3
+45949,E045949,261,Ekapad,Sankar,e045949@example.com,Male,1988-01-02,Married,2,Life Sciences,23,3,5,0,Travel_Rarely,1,2023-11-21,Research & Development,Manufacturing Director,2,6228,87017,0,2025-07-11,3,13,1,3,2,1,3,2
+28178,E028178,1847,Avni,Sagar,e028178@example.com,Female,1987-07-22,Married,4,Other,2,4,14,1,Travel_Rarely,1,2024-03-05,Research & Development,Research Scientist,2,5849,40156,1,,4,22,2,2,4,4,3,3
+84464,E084464,1937,Gabriel,Yogi,e084464@example.com,Female,1986-03-24,Divorced,3,Medical,8,1,0,1,Travel_Frequently,1,2004-05-07,Research & Development,Research Scientist,2,2308,14360,1,,3,16,3,2,4,3,3,4
+579,E000579,611,Rachita,Dhaliwal,e000579@example.com,Male,1995-09-15,Divorced,3,Technical Degree,19,4,6,2,Travel_Rarely,0,2022-12-27,Research & Development,Manufacturing Director,2,4264,48258,1,,3,12,2,4,4,2,4,3
+30960,E030960,1551,Karan,Chaudhary,e030960@example.com,Male,2003-09-03,Divorced,2,Technical Degree,21,0,0,3,Travel_Rarely,0,2023-07-12,Research & Development,Laboratory Technician,1,2299,28930,1,,3,14,3,1,3,2,3,2
+64291,E064291,1969,Janani,Kar,e064291@example.com,Female,1969-02-20,Married,2,Life Sciences,9,3,5,2,Travel_Rarely,0,2022-01-29,Research & Development,Research Scientist,2,2991,57189,1,,3,11,6,3,1,3,2,3
+14532,E014532,659,Bhanumati,Chand,e014532@example.com,Female,1985-01-03,Married,4,Life Sciences,2,1,0,2,Travel_Rarely,0,2014-05-17,Research & Development,Healthcare Representative,2,4037,57087,1,,3,13,3,4,1,3,3,3
+17934,E017934,482,Ojasvi,Shetty,e017934@example.com,Male,1966-02-02,Married,4,Medical,1,2,12,0,Travel_Rarely,0,2022-02-08,Research & Development,Healthcare Representative,2,6166,93296,1,,3,11,2,3,4,3,3,3
+33609,E033609,299,Hitesh,Seshadri,e033609@example.com,Female,1994-07-03,Single,4,Marketing,26,5,4,0,Travel_Frequently,0,2019-03-13,Sales,Sales Executive,2,5929,9366,0,2021-07-07,3,15,5,1,3,3,2,3
+49960,E049960,1727,Viraj,Setty,e049960@example.com,Male,1978-05-30,Single,4,Life Sciences,13,6,11,0,Travel_Rarely,0,2016-03-29,Research & Development,Healthcare Representative,2,5252,69891,1,,3,14,3,2,3,4,4,3
+66599,E066599,1234,Chatura,Pau,e066599@example.com,Female,1992-04-18,Married,3,Other,13,1,0,1,Travel_Frequently,0,2023-08-25,Research & Development,Laboratory Technician,1,2866,61202,1,,4,20,2,3,3,3,3,2
+99090,E099090,981,Bhavika,Narula,e099090@example.com,Male,1974-08-18,Divorced,2,Medical,2,6,6,1,Travel_Rarely,0,2009-09-28,Sales,Manager,4,15278,32199,1,,3,13,3,3,3,3,4,3
+34452,E034452,1692,Aarini,Krishnan,e034452@example.com,Male,1992-12-14,Single,4,Life Sciences,2,1,0,0,Travel_Rarely,0,2024-11-19,Research & Development,Laboratory Technician,1,1406,68759,0,2025-03-05,3,12,2,2,4,1,2,3
+34081,E034081,1489,Karan,Aggarwal,e034081@example.com,Female,1990-02-21,Single,4,Medical,24,0,2,0,Travel_Rarely,1,2011-04-14,Sales,Sales Executive,2,4357,33182,0,2014-08-31,4,23,2,4,1,3,4,2
+63588,E063588,1257,Balhaar,Ray,e063588@example.com,Male,1988-09-04,Married,3,Technical Degree,3,1,1,0,Travel_Frequently,0,2014-10-25,Research & Development,Research Scientist,1,3106,72342,1,,3,12,2,2,3,3,2,3
+4294,E004294,1533,Waida,Majumdar,e004294@example.com,Male,2003-10-26,Single,1,Life Sciences,20,0,1,0,Travel_Rarely,0,2022-04-14,Research & Development,Laboratory Technician,2,2274,68592,1,,3,14,2,3,3,2,3,3
+69103,E069103,377,Ridhi,Sekhon,e069103@example.com,Male,1995-06-08,Married,3,Medical,9,1,1,1,Travel_Rarely,0,2021-03-26,Research & Development,Research Scientist,1,2225,35147,1,,4,23,3,4,4,4,3,3
+86412,E086412,1764,Ekta,Ramakrishnan,e086412@example.com,Male,1992-07-15,Single,4,Technical Degree,5,2,5,0,Non-Travel,0,2017-07-04,Research & Development,Research Scientist,1,3102,49437,1,,3,14,3,2,2,2,3,2
+99477,E099477,1191,Aadi,Nagarajan,e099477@example.com,Female,1970-03-30,Divorced,4,Technical Degree,4,4,22,1,Travel_Rarely,0,2019-02-01,Research & Development,Manager,5,18506,,1,,3,13,2,1,4,4,3,3
+53930,E053930,1486,Nachiket,Kara,e053930@example.com,Male,1995-12-22,Married,3,Technical Degree,1,3,2,1,Travel_Frequently,0,2022-03-25,Sales,Sales Representative,1,2564,76069,0,2023-12-22,3,15,3,3,1,4,4,3
+87071,E087071,546,Falguni,Kalla,e087071@example.com,Female,1974-05-05,Married,2,Life Sciences,4,2,25,0,Travel_Rarely,0,2019-01-20,Research & Development,Manager,4,16857,31003,1,,3,13,2,4,4,4,1,3
+65084,E065084,2052,Omaja,Setty,e065084@example.com,Female,1992-12-26,Married,4,Life Sciences,1,1,0,1,Travel_Rarely,0,2020-05-21,Research & Development,Research Scientist,1,2591,53276,1,,3,12,5,4,3,4,3,1
+30713,E030713,1778,Hemani,Sangha,e030713@example.com,Male,1980-04-25,Single,3,Life Sciences,2,0,3,0,Travel_Rarely,0,2017-04-02,Human Resources,Human Resources,1,3169,19628,1,,3,13,5,4,2,2,3,3
+49183,E049183,1315,Thomas,Goel,e049183@example.com,Female,1995-12-02,Married,3,Life Sciences,1,0,0,3,Non-Travel,0,2015-12-26,Research & Development,Laboratory Technician,2,6784,51039,1,,3,11,6,3,4,1,3,1
+57235,E057235,410,Hardik,Subramanian,e057235@example.com,Male,1982-04-17,Single,4,Life Sciences,2,1,0,0,Travel_Rarely,0,2003-05-24,Sales,Manager,4,17461,41800,1,,3,19,2,2,4,2,3,3
+15664,E015664,1192,Nitesh,Buch,e015664@example.com,Female,1996-01-31,Married,1,Medical,6,1,2,1,Travel_Rarely,0,2016-12-13,Research & Development,Laboratory Technician,1,3307,48879,1,,3,13,2,4,2,1,3,3
+19967,E019967,376,Suhani,Barad,e019967@example.com,Male,1977-10-06,Married,4,Life Sciences,29,1,0,1,Non-Travel,1,2014-04-13,Research & Development,Manager,3,11168,25551,0,2023-10-30,3,12,2,2,2,4,2,3
+91913,E091913,161,Vasudha,Varty,e091913@example.com,Female,1967-11-13,Married,4,Life Sciences,14,9,1,3,Travel_Rarely,1,2019-05-22,Research & Development,Research Scientist,1,4968,25796,0,2024-07-31,3,18,2,2,2,1,3,3
+91958,E091958,1207,Lipika,Badami,e091958@example.com,Male,1992-02-07,Married,3,Human Resources,2,1,0,1,Travel_Rarely,0,2019-07-17,Human Resources,Human Resources,1,3625,73025,1,,3,13,2,3,2,4,3,3
+81347,E081347,1703,Unni,Thaman,e081347@example.com,Female,1979-04-02,Married,3,Life Sciences,2,1,0,1,Travel_Rarely,1,2016-05-03,Research & Development,Healthcare Representative,3,7397,1685,1,,3,19,2,4,3,2,3,4
+55326,E055326,940,Yasti,Wable,e055326@example.com,Female,1965-08-16,Divorced,3,Technical Degree,5,2,19,1,Travel_Rarely,1,2019-04-15,Research & Development,Healthcare Representative,3,10974,46957,1,,3,13,3,2,3,4,3,2
+29858,E029858,482,Eshana,Char,e029858@example.com,Male,1969-02-04,Married,4,Medical,1,2,11,0,Travel_Rarely,0,2021-08-14,Research & Development,Healthcare Representative,2,6638,3165,1,,3,11,2,3,4,3,3,3
+71223,E071223,1787,Wishi,Kaur,e071223@example.com,Male,1987-10-10,Married,2,Marketing,9,1,0,2,Travel_Rarely,0,2019-10-20,Sales,Sales Executive,2,3940,29521,1,,3,14,2,2,2,1,3,2
+52459,E052459,1136,Mohammed,Sarma,e052459@example.com,Male,1996-08-09,Married,1,Life Sciences,2,0,0,0,Travel_Rarely,0,2020-07-02,Research & Development,Research Scientist,1,3321,28839,1,,3,17,2,2,1,1,1,2
+88346,E088346,912,Kavya,Devi,e088346@example.com,Female,1998-10-04,Divorced,1,Medical,7,6,5,3,Travel_Rarely,0,2021-01-30,Research & Development,Laboratory Technician,1,2393,515,1,,3,14,5,4,1,3,3,2
+82364,E082364,1362,Lipika,Bawa,e082364@example.com,Female,1990-01-22,Married,3,Marketing,7,2,2,1,Travel_Frequently,0,2011-04-01,Sales,Sales Executive,2,4632,21439,1,,3,16,2,1,1,3,2,4
+65350,E065350,1523,Chandresh,Agate,e065350@example.com,Male,1980-10-25,Married,3,Life Sciences,28,3,2,1,Travel_Rarely,0,2004-11-01,Research & Development,Research Director,4,17362,53259,1,,3,13,1,1,4,3,4,3
+59650,E059650,813,Om,Ghosh,e059650@example.com,Female,1974-05-03,Married,4,Life Sciences,11,8,5,1,Travel_Rarely,0,2021-04-22,Research & Development,Laboratory Technician,2,3111,53457,1,,4,20,3,3,4,2,3,3
+44953,E044953,1746,Pahal,Dasgupta,e044953@example.com,Male,2001-05-24,Married,3,Medical,10,0,3,1,Travel_Frequently,0,2024-03-27,Human Resources,Human Resources,1,2331,20905,1,,3,14,2,4,1,3,3,3
+39526,E039526,1336,Tamanna,Dua,e039526@example.com,Female,1969-03-21,Married,2,Medical,2,4,5,1,Travel_Rarely,0,2007-03-14,Research & Development,Manager,5,18041,,1,,3,14,5,3,4,4,3,1
+13936,E013936,793,Vanya,Chandran,e013936@example.com,Female,1997-03-15,Married,3,Medical,27,4,2,1,Travel_Rarely,0,2017-09-11,Research & Development,Healthcare Representative,2,4182,94709,1,,3,12,2,3,4,1,2,3
+93781,E093781,1800,Varsha,Gulati,e093781@example.com,Male,1988-11-05,Single,1,Medical,10,7,6,0,Travel_Rarely,0,2022-02-15,Research & Development,Research Director,3,13757,61548,1,,4,21,3,3,3,3,3,3
+89885,E089885,1955,Aishani,Pathak,e089885@example.com,Female,1992-07-01,Divorced,4,Medical,15,5,5,1,Non-Travel,0,2021-06-04,Research & Development,Healthcare Representative,2,7150,19722,1,,3,18,6,4,3,2,3,3
+81144,E081144,60,Pushti,Rai,e081144@example.com,Male,1992-12-14,Single,4,Marketing,23,0,1,0,Non-Travel,0,2015-07-09,Sales,Sales Executive,2,5528,83043,1,,4,20,2,3,2,3,3,3
+95800,E095800,1875,Harshil,Gole,e095800@example.com,Female,1995-02-09,Married,3,Medical,3,1,0,1,Travel_Rarely,0,2025-07-18,Sales,Sales Representative,1,2789,73013,1,,3,19,3,2,2,4,3,3
+89405,E089405,1397,Xavier,Tandon,e089405@example.com,Male,1985-10-20,Married,2,Life Sciences,25,3,5,1,Non-Travel,0,2018-02-08,Research & Development,Healthcare Representative,3,11025,48127,1,,4,21,2,3,3,2,3,2
+55224,E055224,531,Ekaja,Guha,e055224@example.com,Male,1984-09-03,Divorced,1,Life Sciences,1,1,0,1,Travel_Frequently,1,2005-06-03,Research & Development,Manager,5,18041,,1,,3,14,3,3,2,3,3,3
+73646,E073646,1228,Upkaar,Suri,e073646@example.com,Male,1981-07-06,Divorced,4,Technical Degree,2,2,6,1,Travel_Rarely,0,2019-11-05,Research & Development,Manufacturing Director,2,8287,72175,1,,3,11,3,4,4,3,2,3
+66294,E066294,1022,Warhi,Varty,e066294@example.com,Male,1979-12-19,Single,3,Life Sciences,6,2,18,0,Travel_Rarely,0,2024-05-08,Research & Development,Healthcare Representative,2,3714,70773,1,,3,13,0,3,1,4,2,2
+65540,E065540,1509,Samaksh,Rajan,e065540@example.com,Female,1978-08-10,Married,2,Medical,3,4,7,1,Travel_Rarely,0,2023-05-31,Research & Development,Laboratory Technician,2,4273,94674,1,,4,25,3,4,2,1,3,2
+28111,E028111,1648,Bahadurjit,Madan,e028111@example.com,Male,2000-02-08,Single,3,Medical,2,2,0,0,Travel_Frequently,0,2020-07-02,Research & Development,Research Scientist,1,2512,73376,1,,3,13,0,4,4,3,2,3
+41929,E041929,446,Rachit,Rout,e041929@example.com,Male,1993-08-02,Single,3,Marketing,10,3,0,0,Travel_Frequently,0,2017-06-17,Sales,Sales Executive,2,4739,60424,1,,3,14,6,4,2,4,2,2
+86547,E086547,216,Alka,Kata,e086547@example.com,Female,1991-01-01,Married,4,Marketing,2,6,0,1,Travel_Frequently,0,2020-12-01,Sales,Sales Representative,1,2487,54254,1,,3,18,3,3,3,4,3,3
+82586,E082586,666,Krishna,Keer,e082586@example.com,Female,1989-08-12,Divorced,3,Technical Degree,14,1,0,2,Travel_Rarely,1,2018-12-23,Sales,Sales Representative,1,2465,14749,1,,3,18,3,3,3,4,3,3
+38604,E038604,691,Leena,Gade,e038604@example.com,Male,1989-02-20,Single,4,Life Sciences,6,1,1,0,Travel_Rarely,0,2008-02-13,Research & Development,Research Scientist,2,6545,68771,1,,3,13,3,3,2,2,3,1
+91658,E091658,1886,Vrinda,Agate,e091658@example.com,Female,1988-12-08,Married,2,Other,16,0,3,0,Travel_Rarely,1,2023-12-31,Research & Development,Manufacturing Director,2,4851,68916,1,,3,11,2,2,4,4,3,2
+62787,E062787,227,Upkaar,Sachdev,e062787@example.com,Male,1982-04-14,Divorced,3,Life Sciences,14,4,3,1,Travel_Rarely,0,2016-06-04,Research & Development,Research Scientist,1,2388,69042,1,,3,12,2,3,1,1,3,3
+84341,E084341,1032,Bhavini,Sura,e084341@example.com,Female,1965-12-27,Single,3,Life Sciences,2,3,25,0,Travel_Rarely,1,2021-05-15,Research & Development,Manufacturing Director,4,13885,31256,1,,3,13,4,4,3,1,3,2
+39875,E039875,1250,Jacob,Kale,e039875@example.com,Male,1971-08-02,Married,3,Life Sciences,3,3,26,0,Travel_Rarely,0,2015-10-02,Research & Development,Research Director,4,17924,43617,1,,3,14,2,4,4,1,1,3
+78469,E078469,1623,Janya,Goswami,e078469@example.com,Male,2002-04-07,Single,1,Medical,5,1,1,0,Travel_Rarely,0,2024-09-26,Research & Development,Research Scientist,1,3278,95558,1,,3,18,2,4,3,3,3,3
+31632,E031632,900,Gagan,Sarkar,e031632@example.com,Female,1987-10-17,Married,2,Medical,21,5,6,1,Travel_Frequently,0,2020-04-15,Sales,Sales Representative,1,3424,50046,1,,3,15,3,4,3,2,3,3
+14953,E014953,1495,Lohit,Deshpande,e014953@example.com,Female,1999-10-09,Married,2,Life Sciences,13,1,0,1,Non-Travel,0,2024-11-08,Sales,Sales Representative,1,1927,84928,1,,3,13,2,2,4,3,3,3
+39332,E039332,1684,Advika,Chopra,e039332@example.com,Male,2000-02-12,Single,1,Medical,8,1,0,0,Travel_Rarely,1,2020-09-15,Research & Development,Laboratory Technician,1,3696,85907,0,2025-12-29,3,11,2,3,4,1,3,2
+48588,E048588,1516,Indira,Peri,e048588@example.com,Male,1994-08-05,Single,3,Medical,10,2,4,0,Travel_Rarely,0,2020-11-28,Research & Development,Manager,3,10796,75508,1,,4,25,5,4,3,2,4,3
+83595,E083595,983,Praneel,Wagle,e083595@example.com,Female,1985-03-17,Single,3,Technical Degree,10,1,1,0,Non-Travel,1,2019-06-19,Sales,Sales Executive,2,5906,31531,1,,3,13,2,4,3,2,3,3
+41488,E041488,855,Praneel,Parmer,e041488@example.com,Male,1994-05-23,Divorced,3,Medical,1,1,0,1,Travel_Rarely,0,2015-09-18,Sales,Sales Executive,2,4157,43173,1,,4,22,5,1,1,1,3,4
+39628,E039628,1309,Arunima,Sehgal,e039628@example.com,Male,1995-03-23,Married,2,Life Sciences,7,1,0,1,Travel_Rarely,0,2015-02-05,Research & Development,Laboratory Technician,2,5409,18850,0,2018-06-21,3,18,3,3,4,1,3,3
+87895,E087895,75,Nitara,Dar,e087895@example.com,Female,1988-08-07,Married,4,Medical,23,3,2,1,Travel_Rarely,1,2024-10-05,Research & Development,Laboratory Technician,1,4117,52427,1,,3,15,3,1,3,3,3,3
+26304,E026304,474,Kevin,Nigam,e026304@example.com,Male,1987-03-12,Divorced,3,Medical,6,4,7,2,Travel_Rarely,1,2018-09-29,Research & Development,Research Scientist,2,5813,69656,1,,3,13,2,4,3,1,3,4
+67404,E067404,1291,Rehaan,Sanghvi,e067404@example.com,Male,1988-05-12,Married,1,Life Sciences,6,0,3,0,Travel_Rarely,1,2023-02-14,Research & Development,Research Scientist,1,3600,56275,1,,3,14,3,3,3,4,3,3
+98085,E098085,1070,Saanvi,Setty,e098085@example.com,Female,1971-08-01,Married,4,Life Sciences,2,6,3,1,Travel_Rarely,0,2016-02-11,Sales,Sales Executive,3,10882,62556,1,,3,11,4,3,3,2,3,2
+95602,E095602,951,Libni,Kulkarni,e095602@example.com,Female,1992-03-03,Married,3,Life Sciences,1,6,1,0,Non-Travel,0,2022-07-14,Research & Development,Laboratory Technician,1,2468,72691,1,,4,20,6,2,3,3,3,2
+5020,E005020,1868,Ojas,Bahl,e005020@example.com,Male,1997-04-16,Single,2,Life Sciences,24,1,0,0,Travel_Frequently,1,2023-03-05,Research & Development,Research Scientist,1,2562,86036,0,2023-11-11,4,24,3,4,4,2,2,2
+5224,E005224,1580,Saksham,Pau,e005224@example.com,Male,1992-12-10,Married,4,Life Sciences,1,9,9,1,Travel_Rarely,0,2024-01-27,Research & Development,Research Scientist,2,6341,63970,1,,3,17,3,4,2,2,2,3
+15781,E015781,1395,Champak,Saha,e015781@example.com,Male,1994-04-25,Married,1,Life Sciences,5,6,3,0,Travel_Frequently,0,2021-04-23,Sales,Sales Executive,2,9998,76384,1,,3,13,2,4,2,1,4,3
+45557,E045557,805,Rushil,Devi,e045557@example.com,Female,1988-05-09,Married,4,Life Sciences,8,1,0,1,Travel_Rarely,0,2021-05-05,Sales,Sales Representative,1,2777,41616,1,,3,16,1,4,1,2,2,3
+12897,E012897,1816,Qarin,Bir,e012897@example.com,Female,1996-04-11,Single,3,Medical,10,9,2,0,Travel_Rarely,0,2019-08-31,Research & Development,Manufacturing Director,3,9274,57331,1,,3,14,3,3,1,2,3,3
+34305,E034305,1076,Lakshmi,Pandit,e034305@example.com,Male,1983-11-19,Divorced,3,Medical,25,5,18,1,Travel_Rarely,0,2025-03-19,Sales,Sales Executive,3,11303,25631,1,,3,13,2,4,3,3,3,2
+93323,E093323,1244,Eiravati,Sengupta,e093323@example.com,Male,1997-10-22,Married,3,Life Sciences,14,1,0,2,Travel_Rarely,1,2015-11-30,Research & Development,Research Scientist,1,2240,44318,1,,3,14,3,4,1,4,3,3
+5325,E005325,599,Dhruv,Johal,e005325@example.com,Male,1985-11-27,Single,2,Life Sciences,10,7,3,0,Non-Travel,0,2011-04-08,Sales,Sales Executive,2,6073,37161,1,,3,14,3,4,4,4,3,3
+52926,E052926,867,Avi,Dhaliwal,e052926@example.com,Female,1973-10-28,Married,4,Medical,25,3,22,0,Travel_Frequently,0,2017-10-30,Research & Development,Manufacturing Director,4,14028,49637,1,,4,22,3,4,3,3,3,2
+62865,E062865,1109,Vinaya,Gola,e062865@example.com,Male,1982-11-25,Married,2,Medical,2,0,1,1,Travel_Rarely,0,2003-02-28,Research & Development,Manager,4,16321,49510,1,,3,17,3,1,4,4,3,3
+8019,E008019,982,Champak,Mann,e008019@example.com,Male,1996-06-05,Divorced,2,Other,8,5,0,1,Travel_Rarely,0,2016-12-31,Sales,Sales Executive,3,6497,66270,1,,3,11,2,3,3,1,4,3
+82945,E082945,846,Rudra,Dhawan,e082945@example.com,Female,1998-07-18,Married,4,Marketing,2,1,0,0,Travel_Rarely,1,2018-08-04,Sales,Sales Executive,2,4513,28004,1,,4,20,2,2,2,1,3,3
+90377,E090377,568,Teerth,Narang,e090377@example.com,Male,1966-06-16,Divorced,3,Marketing,29,3,31,1,Travel_Rarely,0,2024-07-09,Sales,Manager,4,13015,70382,1,,3,12,2,4,2,4,2,2
+41721,E041721,514,Shivani,Mander,e041721@example.com,Male,1997-10-19,Single,3,Technical Degree,4,9,3,0,Travel_Frequently,1,2024-02-11,Research & Development,Research Scientist,1,2434,91599,0,2025-07-14,4,23,4,4,3,3,3,3
+867,E000867,78,Upasna,Nori,e000867@example.com,Male,1992-07-08,Married,3,Medical,1,1,1,1,Travel_Rarely,1,2016-06-06,Research & Development,Manufacturing Director,2,5342,2973,1,,4,22,3,4,1,2,3,3
+98444,E098444,1818,Barkha,Tiwari,e098444@example.com,Female,2000-06-23,Married,2,Medical,20,0,0,0,Travel_Rarely,1,2019-12-11,Human Resources,Human Resources,1,2196,51907,0,2023-08-30,3,11,3,2,4,2,3,3
+83040,E083040,896,Yasti,Madan,e083040@example.com,Female,1995-08-02,Divorced,3,Medical,1,6,1,3,Travel_Rarely,1,2022-03-28,Sales,Sales Representative,1,2791,61188,0,2024-11-15,3,19,3,2,2,3,3,2
+13925,E013925,1971,Varenya,Zachariah,e013925@example.com,Male,1982-09-17,Married,3,Life Sciences,11,1,0,1,Travel_Rarely,0,2014-03-18,Research & Development,Healthcare Representative,3,8348,8028,1,,3,17,1,3,1,2,3,3
+79893,E079893,321,Bimala,Cherian,e079893@example.com,Male,1968-03-02,Married,2,Medical,6,8,4,0,Travel_Rarely,0,2023-11-30,Human Resources,Human Resources,1,2223,95128,1,,3,17,2,3,2,4,2,3
+31184,E031184,1411,Akshay,Chauhan,e031184@example.com,Female,1988-10-18,Single,3,Medical,11,4,5,0,Travel_Rarely,0,2023-04-25,Research & Development,Laboratory Technician,1,3512,6290,1,,3,18,6,3,1,1,3,3
+13800,E013800,1480,Fitan,Wali,e013800@example.com,Female,1985-12-18,Single,2,Medical,9,1,0,0,Travel_Frequently,0,2012-11-30,Research & Development,Laboratory Technician,1,3675,88597,1,,3,13,3,4,1,3,3,3
+40989,E040989,2061,Reva,Lall,e040989@example.com,Male,1989-05-05,Married,2,Medical,23,4,14,1,Travel_Frequently,0,2021-02-13,Research & Development,Laboratory Technician,2,2234,95541,1,,3,17,3,4,3,3,3,4
+66734,E066734,517,Reva,Hari,e066734@example.com,Female,1983-05-25,Divorced,4,Life Sciences,1,3,3,1,Travel_Rarely,0,2020-10-11,Research & Development,Laboratory Technician,1,2792,45675,1,,3,16,5,3,2,2,3,3
+78331,E078331,829,Amaira,Narasimhan,e078331@example.com,Male,1987-05-01,Married,3,Human Resources,13,4,4,1,Travel_Rarely,0,2020-01-05,Human Resources,Human Resources,1,2590,30708,1,,3,13,2,2,3,2,3,3
+24379,E024379,306,Jasmit,Kanda,e024379@example.com,Male,1988-02-08,Divorced,3,Other,11,1,0,3,Travel_Frequently,1,2016-12-28,Research & Development,Research Director,3,13757,15840,1,,3,14,1,4,2,3,4,3
+23415,E023415,1489,Gaurang,Subramanian,e023415@example.com,Female,1991-02-17,Single,4,Medical,24,0,0,0,Travel_Rarely,1,2009-03-30,Sales,Sales Executive,2,4584,86475,0,2013-08-26,4,23,2,2,1,3,4,2
+97560,E097560,2010,Isaac,Ahluwalia,e097560@example.com,Female,1995-08-23,Single,4,Life Sciences,29,1,0,0,Travel_Rarely,0,2018-09-14,Research & Development,Laboratory Technician,1,3002,51005,1,,3,13,3,2,3,3,2,3
+22993,E022993,61,Neel,Bajaj,e022993@example.com,Male,1989-04-04,Married,2,Life Sciences,19,4,7,0,Travel_Rarely,0,2023-11-17,Research & Development,Research Scientist,1,2617,52283,1,,4,21,1,2,2,1,3,3
+3232,E003232,369,Urvashi,Chana,e003232@example.com,Male,1998-08-02,Divorced,2,Life Sciences,5,1,0,2,Non-Travel,0,2018-04-02,Research & Development,Healthcare Representative,2,3559,66159,1,,3,12,2,1,2,4,3,4
+41996,E041996,200,Vidhi,Grover,e041996@example.com,Male,1986-08-16,Married,4,Life Sciences,9,2,2,1,Travel_Rarely,0,2019-06-18,Research & Development,Laboratory Technician,1,2284,46857,1,,4,21,2,1,3,4,3,3
+49188,E049188,1815,Ekapad,Ganesan,e049188@example.com,Female,1983-02-23,Divorced,1,Marketing,4,0,2,1,Travel_Rarely,1,2003-04-25,Sales,Sales Executive,3,11240,90252,1,,3,13,3,3,3,4,3,3
+22515,E022515,387,Mitesh,Srinivasan,e022515@example.com,Male,1981-10-02,Married,1,Life Sciences,1,1,2,0,Travel_Rarely,0,2006-07-21,Sales,Sales Executive,2,4815,64489,1,,4,25,2,3,2,3,3,3
+21326,E021326,1487,Kala,Saini,e021326@example.com,Female,1996-10-06,Single,3,Technical Degree,13,5,4,0,Travel_Frequently,0,2021-04-15,Sales,Sales Executive,2,5427,9573,0,2023-01-04,3,11,4,2,1,1,1,2
+86234,E086234,581,Diya,Bera,e086234@example.com,Male,1993-05-31,Divorced,1,Life Sciences,9,1,0,1,Travel_Rarely,0,2011-07-05,Research & Development,Manufacturing Director,3,12192,4447,1,,4,25,6,2,3,4,4,3
+88127,E088127,897,Anjali,Dora,e088127@example.com,Male,1970-05-05,Married,3,Marketing,8,5,26,1,Travel_Rarely,0,2022-08-31,Sales,Sales Executive,4,11276,8193,1,,3,14,3,4,1,3,3,3
+29824,E029824,1542,Arjun,Dyal,e029824@example.com,Male,1985-05-26,Married,3,Medical,2,4,4,1,Travel_Rarely,0,2025-05-17,Research & Development,Laboratory Technician,1,4781,13018,1,,3,14,3,2,3,2,3,2
+92485,E092485,1040,Adya,Swamy,e092485@example.com,Female,1976-02-15,Married,3,Life Sciences,1,0,0,1,Non-Travel,0,2006-03-15,Sales,Sales Executive,2,4911,14446,1,,3,12,3,3,4,1,3,3
+68425,E068425,1708,Balendra,Desai,e068425@example.com,Male,1983-06-12,Single,3,Marketing,6,1,0,0,Travel_Rarely,0,2014-02-11,Sales,Sales Executive,3,9784,42325,1,,3,12,3,3,4,2,3,3
+64484,E064484,1618,Ubika,Trivedi,e064484@example.com,Male,1987-07-06,Married,5,Medical,10,2,2,3,Travel_Rarely,0,2017-04-12,Research & Development,Manufacturing Director,2,5364,82467,1,,3,13,3,1,2,4,3,3
+51020,E051020,1409,Benjamin,Tandon,e051020@example.com,Female,1972-06-02,Married,4,Other,8,9,6,0,Travel_Rarely,0,2019-08-06,Research & Development,Laboratory Technician,1,3078,3782,1,,3,13,2,1,3,3,1,3
+26754,E026754,1989,Aachal,Tank,e026754@example.com,Male,1993-04-06,Married,2,Medical,1,1,0,0,Travel_Rarely,0,2014-11-27,Research & Development,Laboratory Technician,1,3881,4524,1,,3,13,6,2,4,2,2,3
+49964,E049964,1573,Aryan,Madan,e049964@example.com,Male,1989-11-13,Married,3,Medical,2,4,3,2,Travel_Rarely,0,2021-02-14,Research & Development,Manufacturing Director,2,5400,54676,0,2025-03-21,3,11,2,2,3,1,3,3
+42732,E042732,875,Dalaja,Bhakta,e042732@example.com,Male,1984-05-19,Single,1,Medical,2,5,6,0,Travel_Frequently,1,2022-05-26,Research & Development,Research Scientist,1,2400,29281,1,,3,14,2,4,2,4,2,3
+29057,E029057,840,Kabir,Cherian,e029057@example.com,Female,1978-11-16,Married,3,Marketing,11,1,0,2,Travel_Rarely,0,2016-04-21,Sales,Sales Executive,3,6638,31829,0,2023-05-26,3,18,3,4,3,1,4,3
+55318,E055318,13,Vidhi,Kannan,e055318@example.com,Male,1988-09-23,Married,3,Medical,27,6,10,2,Travel_Rarely,0,2017-01-24,Research & Development,Healthcare Representative,2,5515,82284,1,,3,13,3,3,3,2,4,3
+35497,E035497,856,Darika,Sankar,e035497@example.com,Female,1990-12-01,Single,1,Medical,27,1,1,0,Travel_Rarely,0,2020-03-03,Research & Development,Research Scientist,1,2685,73641,1,,3,11,3,1,3,4,2,2
+56338,E056338,1799,Jai,Solanki,e056338@example.com,Male,1999-07-14,Married,3,Life Sciences,1,1,0,1,Travel_Rarely,0,2020-05-15,Research & Development,Research Scientist,1,2333,59564,1,,3,11,4,4,3,3,4,3
+79278,E079278,363,Vrishti,Krishna,e079278@example.com,Female,1979-03-16,Married,3,Technical Degree,2,3,21,1,Travel_Rarely,1,2018-11-15,Sales,Manager,4,16106,73203,1,,3,12,3,2,3,2,2,1
+5465,E005465,944,Farhan,Setty,e005465@example.com,Female,1976-10-19,Married,2,Other,8,4,3,1,Travel_Rarely,0,2000-07-14,Research & Development,Laboratory Technician,3,6865,86222,1,,3,11,3,2,1,3,2,3
+70156,E070156,724,Lekha,Raghavan,e070156@example.com,Female,1985-09-04,Single,4,Life Sciences,1,0,2,0,Travel_Rarely,0,2017-06-28,Research & Development,Healthcare Representative,2,6930,20527,1,,3,13,3,3,2,3,2,4
+70670,E070670,298,Om,Mody,e070670@example.com,Female,1985-06-21,Single,3,Life Sciences,6,3,14,0,Travel_Rarely,1,2023-02-20,Sales,Manager,3,12712,97779,1,,3,18,3,4,4,3,3,3
+56014,E056014,1407,Gopal,Sharaf,e056014@example.com,Male,1998-06-15,Single,1,Medical,2,0,3,0,Travel_Rarely,0,2022-08-06,Research & Development,Research Scientist,1,3526,51514,1,,3,12,2,1,1,4,3,2
+12086,E012086,1697,Amol,Buch,e012086@example.com,Male,1967-02-14,Divorced,4,Medical,1,3,20,1,Travel_Rarely,0,2025-06-08,Research & Development,Healthcare Representative,3,10132,6180,1,,4,20,2,3,3,3,4,1
+56819,E056819,1399,Vihaan,Pillay,e056819@example.com,Male,2001-09-03,Married,1,Life Sciences,18,2,2,0,Travel_Rarely,0,2022-01-18,Sales,Sales Executive,2,7196,45868,1,,3,11,3,3,1,2,2,4
+20001,E020001,53,Osha,Tiwari,e020001@example.com,Male,1989-07-16,Divorced,2,Other,4,1,0,1,Travel_Rarely,0,2025-12-17,Research & Development,Laboratory Technician,1,2339,74243,1,,3,12,3,4,3,1,3,3
+69067,E069067,1412,Nihal,Rout,e069067@example.com,Male,1990-11-17,Single,2,Life Sciences,18,2,8,0,Travel_Frequently,0,2024-06-17,Research & Development,Manufacturing Director,3,10373,38661,1,,3,11,2,4,3,3,3,3
+50453,E050453,227,Sai,Chaudhry,e050453@example.com,Male,1984-09-04,Divorced,3,Life Sciences,14,4,5,1,Travel_Rarely,0,2017-01-14,Research & Development,Research Scientist,1,2158,98122,1,,3,12,3,3,1,1,3,1
+90710,E090710,1346,Jyoti,Thaker,e090710@example.com,Male,1987-11-01,Single,3,Life Sciences,2,1,0,0,Travel_Rarely,0,2015-02-13,Research & Development,Research Scientist,2,4915,14784,1,,3,13,4,4,3,3,3,3
+52885,E052885,1070,Faqid,Dyal,e052885@example.com,Female,1971-08-30,Married,4,Life Sciences,2,6,4,1,Travel_Rarely,0,2015-10-07,Sales,Sales Executive,3,10027,20053,1,,3,11,4,3,1,2,3,2
+30964,E030964,1878,Harish,Bansal,e030964@example.com,Male,2003-06-24,Single,1,Life Sciences,7,1,0,0,Travel_Rarely,1,2024-03-30,Research & Development,Research Scientist,1,2484,88072,0,2025-02-02,4,23,2,2,4,1,3,3
+34574,E034574,1633,Simon,Devi,e034574@example.com,Female,1986-12-16,Single,3,Medical,4,0,0,0,Travel_Frequently,0,2015-12-20,Research & Development,Manufacturing Director,2,5557,67965,1,,3,13,2,3,1,3,1,3
+15295,E015295,154,Manya,Bhagat,e015295@example.com,Female,1990-05-25,Married,2,Technical Degree,11,0,2,1,Travel_Frequently,0,2017-08-06,Sales,Sales Executive,3,11165,77468,1,,3,14,6,4,2,3,3,3
+27919,E027919,314,Osha,Mittal,e027919@example.com,Female,1990-06-13,Single,3,Marketing,1,1,1,0,Travel_Frequently,0,2015-03-21,Sales,Sales Executive,3,8792,77309,1,,3,14,3,3,3,1,4,3
+46121,E046121,1668,Kamya,Arya,e046121@example.com,Male,1989-05-02,Married,3,Life Sciences,1,7,5,2,Travel_Frequently,0,2012-12-22,Research & Development,Research Scientist,2,4961,11476,1,,3,15,4,4,4,4,4,3
+35074,E035074,1937,Bhavani,Murty,e035074@example.com,Female,1985-03-20,Divorced,3,Medical,8,1,0,1,Travel_Frequently,1,2004-03-30,Research & Development,Research Scientist,2,2423,14546,1,,3,16,3,2,1,3,3,2
+10551,E010551,328,Frederick,Jhaveri,e010551@example.com,Female,1990-01-31,Married,2,Life Sciences,2,7,4,0,Travel_Rarely,0,2015-02-12,Research & Development,Laboratory Technician,1,2515,29604,0,2022-07-17,4,20,3,1,1,1,4,3
+91128,E091128,772,Harish,Chada,e091128@example.com,Male,1993-05-30,Married,4,Life Sciences,24,1,0,2,Travel_Frequently,0,2015-03-03,Research & Development,Laboratory Technician,2,5248,27846,1,,3,15,2,4,1,4,3,3
+691,E000691,1644,Saanvi,Apte,e000691@example.com,Male,1979-05-07,Married,5,Medical,4,2,23,1,Travel_Frequently,0,2024-06-09,Research & Development,Manager,4,13592,46712,1,,4,25,3,4,3,2,3,2
+77730,E077730,1494,Laban,Anand,e077730@example.com,Male,2000-04-25,Single,3,Medical,9,2,3,0,Travel_Frequently,1,2025-08-05,Research & Development,Laboratory Technician,1,2899,95759,0,2025-12-10,3,11,2,1,1,3,2,3
+36097,E036097,517,Gautam,Golla,e036097@example.com,Female,1985-10-27,Divorced,4,Life Sciences,1,3,3,1,Travel_Rarely,0,2021-10-29,Research & Development,Laboratory Technician,1,2491,35270,1,,3,16,5,1,2,2,3,3
+65352,E065352,2061,Radhika,Sani,e065352@example.com,Male,1987-04-15,Married,2,Medical,23,4,11,1,Travel_Frequently,0,2020-12-19,Research & Development,Laboratory Technician,2,2470,85055,1,,3,17,3,3,3,3,3,4
+11041,E011041,193,Wakeeta,Parekh,e011041@example.com,Female,1988-02-04,Single,5,Technical Degree,3,3,15,0,Travel_Rarely,1,2021-06-14,Research & Development,Research Scientist,2,4416,18120,1,,4,20,2,3,4,2,3,3
+4222,E004222,248,Gautam,Dasgupta,e004222@example.com,Female,1985-03-27,Single,2,Marketing,20,1,0,0,Travel_Rarely,1,2020-09-06,Sales,Sales Representative,1,3496,59428,0,2025-09-14,4,22,5,2,2,4,2,3
+822,E000822,1107,Yashoda,Rajagopalan,e000822@example.com,Male,1998-12-20,Divorced,3,Medical,21,1,0,1,Travel_Rarely,0,2023-05-18,Research & Development,Laboratory Technician,1,2096,85151,0,2024-11-07,4,20,0,4,1,3,2,3
+38129,E038129,611,Janya,Raj,e038129@example.com,Male,1995-05-26,Divorced,3,Technical Degree,19,4,3,2,Travel_Rarely,0,2021-02-03,Research & Development,Manufacturing Director,2,3955,36784,1,,3,12,2,4,4,2,4,3
+89152,E089152,1394,Samar,Shanker,e089152@example.com,Male,1988-09-29,Married,1,Life Sciences,4,7,0,0,Travel_Rarely,1,2018-09-16,Research & Development,Research Scientist,1,2973,61618,1,,3,15,2,3,3,4,3,3
+29232,E029232,455,Oviya,Mannan,e029232@example.com,Male,1996-07-13,Single,5,Other,9,0,0,0,Travel_Rarely,0,2021-03-28,Research & Development,Laboratory Technician,1,4313,35726,1,,3,17,2,4,2,3,3,2
+50557,E050557,1234,Ikshita,Bhatti,e050557@example.com,Female,1993-12-08,Married,3,Other,13,1,0,1,Travel_Frequently,0,2022-11-19,Research & Development,Laboratory Technician,1,2607,49721,1,,4,20,2,2,3,3,3,2
+33685,E033685,1220,Xiti,Basu,e033685@example.com,Female,1990-03-17,Married,3,Medical,25,1,2,1,Travel_Frequently,0,2016-12-24,Sales,Sales Executive,2,3916,64062,1,,3,12,3,1,2,1,2,3
+58754,E058754,546,Mohammed,Wable,e058754@example.com,Female,1971-05-29,Married,2,Life Sciences,4,2,27,0,Travel_Rarely,0,2021-10-16,Research & Development,Manager,4,14836,62369,1,,3,13,2,4,4,2,3,2
+27023,E027023,12,Dominic,Nagarajan,e027023@example.com,Male,1985-04-07,Single,3,Life Sciences,23,0,3,0,Travel_Frequently,0,2017-03-10,Research & Development,Manufacturing Director,3,9335,92881,1,,4,21,2,3,4,2,3,2
+36906,E036906,977,Abdul,Vasa,e036906@example.com,Male,1967-11-02,Single,3,Technical Degree,2,4,7,0,Travel_Rarely,0,2025-06-28,Research & Development,Research Scientist,1,2414,23567,0,2025-12-06,4,24,4,4,4,1,3,3
+271,E000271,1131,Alka,Brahmbhatt,e000271@example.com,Female,2002-01-17,Single,1,Technical Degree,1,1,0,0,Travel_Rarely,1,2024-02-08,Research & Development,Research Scientist,1,1969,72169,1,,3,11,6,2,4,3,3,3
+8867,E008867,1042,Manthan,Natarajan,e008867@example.com,Female,1989-04-13,Single,4,Life Sciences,16,1,0,0,Travel_Rarely,0,2007-12-07,Research & Development,Laboratory Technician,1,2805,45458,0,2016-08-10,3,16,1,2,3,3,3,4
+15007,E015007,1798,Aarav,Upadhyay,e015007@example.com,Male,1991-04-07,Married,4,Life Sciences,8,6,4,1,Travel_Rarely,0,2015-12-04,Research & Development,Research Scientist,1,3513,91054,1,,3,19,1,1,4,2,3,4
+4689,E004689,1311,Ekavir,Goel,e004689@example.com,Female,1996-05-25,Married,3,Technical Degree,6,0,0,1,Travel_Rarely,0,2015-04-20,Research & Development,Laboratory Technician,2,4598,2612,1,,3,12,6,4,1,1,3,2
+81996,E081996,1541,Gaurika,Deol,e081996@example.com,Male,1989-05-19,Married,2,Technical Degree,7,0,0,1,Travel_Rarely,1,2014-09-04,Sales,Sales Representative,1,2169,96262,1,,4,25,4,3,2,2,3,3
+84373,E084373,1502,Charles,Sharma,e084373@example.com,Female,1992-08-27,Married,4,Medical,4,8,1,0,Travel_Rarely,0,2019-05-08,Research & Development,Laboratory Technician,1,3701,98904,1,,3,11,5,2,1,4,3,2
+2515,E002515,1539,Nilima,Kunda,e002515@example.com,Male,1975-12-30,Single,5,Medical,22,1,0,0,Travel_Frequently,1,1993-12-30,Research & Development,Research Director,4,14385,57132,1,,3,13,2,4,3,4,3,1
+36400,E036400,362,Zaitra,Mitter,e036400@example.com,Male,1992-10-15,Single,1,Technical Degree,2,4,1,0,Travel_Rarely,0,2018-05-05,Research & Development,Laboratory Technician,2,2042,82907,1,,3,13,5,1,4,4,3,2
+38869,E038869,954,Omisha,Karpe,e038869@example.com,Male,1985-09-23,Divorced,4,Marketing,10,2,12,1,Travel_Rarely,0,2025-07-24,Sales,Sales Executive,3,10680,9312,1,,3,12,2,2,1,4,2,2
+58245,E058245,1725,Balveer,Pau,e058245@example.com,Male,2001-06-09,Divorced,1,Medical,29,1,1,3,Travel_Rarely,0,2020-03-14,Research & Development,Laboratory Technician,1,4038,2083,1,,3,13,2,1,2,2,4,3
+30410,E030410,190,Eshana,Ranganathan,e030410@example.com,Female,1993-02-06,Single,3,Medical,9,7,3,0,Travel_Rarely,0,2019-08-25,Research & Development,Laboratory Technician,1,3495,27778,0,2021-11-19,4,22,2,1,1,1,4,3
+54795,E054795,522,Chatura,Mitter,e054795@example.com,Male,1972-10-11,Married,2,Medical,5,4,20,1,Travel_Rarely,0,2020-05-05,Research & Development,Research Director,5,19999,,1,,3,11,4,1,1,3,2,3
+19264,E019264,1833,Warjas,Tiwari,e019264@example.com,Female,1995-03-20,Married,4,Marketing,7,2,7,2,Travel_Frequently,0,2022-02-28,Sales,Sales Executive,3,9000,84694,1,,3,14,3,1,1,4,3,3
+83910,E083910,1557,Bachittar,Bora,e083910@example.com,Female,1978-12-05,Divorced,4,Life Sciences,16,8,11,1,Travel_Rarely,0,2017-08-14,Sales,Sales Executive,2,5777,63134,1,,3,14,2,3,3,3,3,3
+26974,E026974,27,Charvi,Bhasin,e026974@example.com,Male,1989-03-12,Single,4,Life Sciences,9,7,6,0,Travel_Rarely,0,2021-07-27,Sales,Sales Representative,1,3610,10500,0,2025-03-26,4,23,4,1,1,2,4,2
+7130,E007130,170,Lakshit,Rattan,e007130@example.com,Female,1974-09-24,Married,4,Medical,20,1,3,0,Travel_Rarely,0,2011-05-04,Research & Development,Manufacturing Director,2,6789,86338,1,,3,14,2,1,3,3,2,3
+7145,E007145,1944,Divya,Chana,e007145@example.com,Female,1999-10-18,Married,3,Human Resources,22,1,0,0,Travel_Frequently,0,2023-11-23,Human Resources,Human Resources,1,2943,18845,0,2025-02-08,3,12,4,2,1,1,3,2
+45466,E045466,1203,Edhitha,Swaminathan,e045466@example.com,Male,2001-08-19,Married,4,Life Sciences,3,0,0,1,Travel_Frequently,1,2024-03-04,Research & Development,Research Scientist,1,2803,44941,0,2025-07-29,3,11,3,4,3,2,3,2
+1967,E001967,452,Janaki,Thaker,e001967@example.com,Male,1980-01-24,Married,4,Other,8,9,1,2,Travel_Rarely,0,2014-11-18,Research & Development,Research Scientist,2,3308,99058,1,,3,14,3,4,4,1,3,3
+15153,E015153,1263,Chakrika,Deo,e015153@example.com,Male,1975-06-03,Single,3,Life Sciences,1,6,23,0,Travel_Rarely,0,2023-01-15,Research & Development,Research Director,5,18192,,1,,3,12,3,4,4,3,4,3
+19114,E019114,1602,Aadi,Kar,e019114@example.com,Male,1977-02-11,Single,4,Life Sciences,1,1,2,0,Travel_Rarely,0,2000-05-29,Sales,Manager,4,16188,75274,1,,3,15,5,1,4,2,1,4
+76207,E076207,1125,Balhaar,Dey,e076207@example.com,Male,1987-05-23,Single,2,Marketing,2,7,8,0,Travel_Rarely,0,2024-12-17,Sales,Sales Executive,3,7742,74401,1,,3,16,2,2,4,3,3,3
+32142,E032142,677,Balvan,Pradhan,e032142@example.com,Male,1992-03-01,Divorced,4,Marketing,8,0,0,0,Travel_Rarely,0,2019-08-11,Sales,Sales Executive,2,6864,98120,1,,3,12,3,3,3,4,3,3
+21935,E021935,671,Jasmit,Dora,e021935@example.com,Male,1981-08-08,Married,4,Other,3,4,23,1,Travel_Rarely,1,2022-01-15,Research & Development,Manager,5,19999,,1,,3,12,2,4,4,1,3,3
+40360,E040360,918,Onveer,Dhingra,e040360@example.com,Male,1969-10-08,Divorced,1,Life Sciences,2,9,3,1,Travel_Frequently,1,2024-02-22,Research & Development,Laboratory Technician,1,2573,99503,0,2025-03-10,3,14,3,4,4,2,3,2
+53842,E053842,1258,Pranit,Gala,e053842@example.com,Male,1975-04-20,Single,2,Technical Degree,2,5,5,0,Travel_Rarely,0,2023-12-26,Research & Development,Laboratory Technician,1,2516,88441,1,,3,11,4,2,4,3,3,4
+9163,E009163,1822,Ekantika,Pradhan,e009163@example.com,Female,1985-02-16,Divorced,3,Life Sciences,1,4,7,1,Travel_Rarely,0,2020-10-26,Research & Development,Healthcare Representative,2,5712,89313,1,,3,17,3,4,3,4,3,3
+87844,E087844,862,Advik,Goel,e087844@example.com,Female,1972-05-09,Married,2,Marketing,7,7,29,1,Travel_Rarely,1,2019-07-10,Sales,Sales Executive,3,9793,43491,1,,3,18,3,4,1,4,3,2
+37630,E037630,293,Ranveer,Dave,e037630@example.com,Female,1999-06-25,Single,3,Life Sciences,20,1,1,0,Travel_Frequently,0,2019-02-22,Sales,Sales Executive,2,8437,68713,1,,3,14,2,3,4,4,3,3
+83305,E083305,861,Pallavi,Barad,e083305@example.com,Male,1997-05-25,Divorced,4,Life Sciences,5,9,3,1,Travel_Frequently,0,2019-04-02,Research & Development,Research Scientist,1,3346,25583,1,,3,12,2,4,2,2,2,2
+66270,E066270,131,Bahadurjit,Brar,e066270@example.com,Male,1968-02-04,Single,4,Medical,10,0,1,0,Travel_Rarely,0,1988-10-15,Sales,Sales Executive,4,14201,71119,1,,3,13,1,3,4,3,3,3
+34654,E034654,1890,Upadhriti,Datta,e034654@example.com,Male,1991-06-02,Single,1,Human Resources,2,1,1,0,Travel_Frequently,0,2015-10-22,Human Resources,Human Resources,2,4586,57759,1,,4,21,2,4,2,4,2,2
+41963,E041963,1514,Shivani,Mohan,e041963@example.com,Male,1996-04-10,Married,1,Life Sciences,29,1,0,2,Travel_Rarely,0,2018-11-10,Research & Development,Manufacturing Director,2,6549,31795,1,,3,14,2,2,3,2,2,1
+39591,E039591,1241,Daniel,Chopra,e039591@example.com,Male,1996-01-19,Married,3,Medical,1,0,1,1,Travel_Rarely,1,2015-10-03,Research & Development,Research Scientist,1,3712,7932,1,,4,21,3,2,4,1,3,3
+81036,E081036,1448,Varsha,Chakrabarti,e081036@example.com,Male,1986-08-02,Married,5,Medical,5,2,3,0,Travel_Rarely,1,2020-04-30,Research & Development,Research Scientist,1,2098,37646,1,,3,12,5,3,2,1,2,4
+10981,E010981,1968,Ojasvi,Acharya,e010981@example.com,Male,1971-10-08,Single,4,Life Sciences,24,6,14,0,Travel_Rarely,1,2024-07-12,Sales,Sales Executive,3,9256,59826,0,2025-05-19,3,13,2,1,1,4,1,3
+56300,E056300,54,Jason,Madan,e056300@example.com,Female,1998-06-06,Divorced,4,Life Sciences,2,1,1,1,Travel_Rarely,0,2025-03-30,Research & Development,Laboratory Technician,1,2206,99320,1,,3,13,6,1,4,4,3,3
+61549,E061549,744,Samuel,Suri,e061549@example.com,Male,1979-01-23,Single,3,Medical,24,2,4,0,Non-Travel,0,2019-02-10,Research & Development,Laboratory Technician,1,4029,58795,1,,3,14,5,3,1,3,3,1
+88401,E088401,1898,Vritti,Saini,e088401@example.com,Female,1998-05-19,Single,2,Medical,2,0,2,0,Travel_Rarely,0,2018-12-30,Sales,Sales Executive,2,6556,59826,1,,3,14,5,3,1,2,2,4
+44324,E044324,1285,Gauri,Raj,e044324@example.com,Female,1992-10-26,Divorced,3,Medical,19,4,4,2,Travel_Frequently,0,2014-06-07,Research & Development,Laboratory Technician,2,4588,89733,1,,3,13,3,2,3,3,3,3
+55208,E055208,1689,Edhitha,Bhatia,e055208@example.com,Male,1973-08-25,Married,4,Medical,24,3,6,0,Travel_Rarely,0,2020-06-21,Research & Development,Healthcare Representative,3,7216,51509,1,,3,15,2,4,2,3,3,4
+53528,E053528,1184,Qarin,Barad,e053528@example.com,Male,1992-06-22,Single,3,Medical,1,0,2,0,Travel_Frequently,0,2013-09-26,Research & Development,Healthcare Representative,2,5412,95036,1,,4,20,3,1,4,3,3,2
+26971,E026971,1692,Sai,Buch,e026971@example.com,Male,1993-04-18,Single,4,Life Sciences,2,1,0,0,Travel_Rarely,0,2023-03-31,Research & Development,Laboratory Technician,1,1480,49690,0,2024-02-27,3,12,2,2,4,1,3,3
+73218,E073218,1234,Ekapad,Pall,e073218@example.com,Female,1995-10-29,Married,3,Other,13,1,1,1,Travel_Frequently,0,2023-01-28,Research & Development,Laboratory Technician,1,2774,41369,1,,4,20,2,3,3,3,3,2
+65891,E065891,81,Ayaan,Rajagopal,e065891@example.com,Female,1967-01-22,Single,3,Life Sciences,25,7,7,0,Travel_Rarely,0,2005-01-30,Sales,Sales Executive,3,7908,99132,1,,3,11,3,1,1,4,2,3
+42222,E042222,30,Veer,Setty,e042222@example.com,Male,2006-08-28,Single,2,Life Sciences,15,1,0,0,Travel_Rarely,0,2024-08-28,Research & Development,Research Scientist,1,1096,65592,1,,3,14,3,4,3,4,2,3
+97866,E097866,1644,Yauvani,Kashyap,e097866@example.com,Male,1976-03-19,Married,5,Medical,4,2,20,1,Travel_Frequently,0,2022-08-20,Research & Development,Manager,4,15289,85130,1,,4,25,3,4,3,2,3,2
+12251,E012251,747,Ayush,Samra,e012251@example.com,Male,1994-11-20,Divorced,5,Marketing,27,7,0,1,Travel_Rarely,0,2016-10-27,Sales,Sales Executive,2,5018,35005,1,,4,23,2,4,3,4,2,3
+69437,E069437,1845,Osha,Chaudhuri,e069437@example.com,Female,1980-01-21,Married,4,Life Sciences,2,4,0,2,Non-Travel,0,2016-12-09,Sales,Sales Executive,2,5025,71599,1,,4,22,3,3,3,2,4,3
+38433,E038433,800,Jai,Apte,e038433@example.com,Male,1997-05-11,Married,1,Marketing,8,0,2,1,Travel_Frequently,0,2022-06-24,Sales,Sales Executive,2,4446,38404,1,,3,19,3,4,3,2,3,3
+40890,E040890,1545,Triveni,Vaidya,e040890@example.com,Male,1992-10-01,Single,3,Life Sciences,25,1,0,0,Travel_Rarely,0,2021-04-07,Research & Development,Manufacturing Director,2,4807,54823,1,,3,13,2,2,4,4,3,2
+30999,E030999,1371,Girish,Kala,e030999@example.com,Male,1998-07-04,Single,1,Life Sciences,2,3,4,0,Travel_Frequently,0,2020-09-15,Sales,Sales Executive,2,4432,28120,1,,4,20,3,4,4,2,3,1
+56146,E056146,1371,Widisha,Prasad,e056146@example.com,Male,1997-06-04,Single,1,Life Sciences,2,3,3,0,Travel_Frequently,0,2020-06-11,Sales,Sales Executive,2,5674,63577,1,,4,20,3,4,4,2,3,1
+95414,E095414,422,Peter,Chander,e095414@example.com,Male,1967-07-10,Divorced,4,Life Sciences,1,2,6,1,Non-Travel,1,2019-10-08,Research & Development,Healthcare Representative,2,5621,15477,1,,3,13,2,3,4,4,3,1
+22156,E022156,1782,Inaya,Kulkarni,e022156@example.com,Female,1985-10-16,Married,2,Other,6,1,0,1,Travel_Rarely,0,2019-03-03,Research & Development,Laboratory Technician,1,3585,38369,1,,3,11,3,3,4,2,3,2
+17614,E017614,53,Peter,Chokshi,e017614@example.com,Male,1989-11-28,Divorced,2,Other,4,1,0,1,Travel_Rarely,0,2023-01-30,Research & Development,Laboratory Technician,1,2074,72222,1,,3,12,3,4,3,3,3,3
+56444,E056444,1754,Ria,Chaudhuri,e056444@example.com,Male,1995-03-09,Divorced,2,Marketing,15,2,5,1,Travel_Rarely,0,2019-11-17,Sales,Sales Executive,3,6785,41723,1,,3,11,2,1,3,1,3,3
+98400,E098400,1689,Udyati,Upadhyay,e098400@example.com,Male,1973-06-25,Married,4,Medical,24,3,8,0,Travel_Rarely,0,2022-09-25,Research & Development,Healthcare Representative,3,6780,83373,1,,3,15,2,4,2,3,3,4
+24053,E024053,1516,Omya,Chand,e024053@example.com,Male,1992-01-30,Single,3,Medical,10,2,6,0,Travel_Rarely,0,2020-09-30,Research & Development,Manager,3,10758,95272,1,,4,25,5,4,3,2,4,3
+50243,E050243,912,Rachit,Keer,e050243@example.com,Female,1997-08-09,Divorced,1,Medical,7,6,5,3,Travel_Rarely,0,2022-11-21,Research & Development,Laboratory Technician,1,2534,83858,1,,3,14,5,4,1,3,3,2
+58999,E058999,515,Qadim,Kaur,e058999@example.com,Female,1987-07-12,Divorced,3,Life Sciences,14,1,0,1,Travel_Rarely,0,2006-10-05,Research & Development,Laboratory Technician,1,3105,53904,1,,3,12,2,1,4,3,2,3
+31345,E031345,40,Gayathri,Lalla,e031345@example.com,Male,1979-11-17,Married,4,Other,10,2,6,0,Travel_Rarely,1,2021-10-02,Research & Development,Healthcare Representative,2,7348,76689,1,,3,13,5,4,4,4,4,3
+61242,E061242,1267,Daniel,Gokhale,e061242@example.com,Male,1979-03-19,Married,3,Marketing,5,7,4,1,Travel_Rarely,0,2004-12-30,Sales,Manager,5,18041,,1,,3,11,5,2,3,3,3,3
+92530,E092530,1801,Joshua,Kar,e092530@example.com,Male,1977-12-26,Single,2,Life Sciences,26,8,3,0,Non-Travel,0,2022-07-10,Sales,Sales Executive,2,7763,90197,1,,3,15,3,2,2,3,3,2
+80829,E080829,902,Lohit,Tara,e080829@example.com,Female,1983-04-20,Married,3,Life Sciences,1,4,7,1,Travel_Frequently,0,2019-04-17,Research & Development,Healthcare Representative,2,5526,78197,1,,3,13,2,4,4,4,2,3
+51726,E051726,1124,Xavier,Dar,e051726@example.com,Male,1980-01-15,Married,1,Marketing,3,3,11,1,Travel_Rarely,0,2013-06-19,Sales,Manager,4,17339,56842,1,,3,12,3,3,1,4,3,3
+33880,E033880,1691,Rudra,Gupta,e033880@example.com,Female,1978-01-28,Married,2,Medical,7,2,8,2,Travel_Frequently,1,2015-04-30,Sales,Sales Representative,1,2639,84462,0,2024-06-16,3,11,3,3,4,3,3,3
+83007,E083007,1592,Xalak,Chad,e083007@example.com,Male,2002-09-18,Married,3,Technical Degree,10,2,3,1,Travel_Rarely,0,2023-03-24,Research & Development,Research Scientist,1,2098,30043,1,,3,16,2,1,4,4,3,2
+73909,E073909,184,Waida,Nagarajan,e073909@example.com,Male,1994-12-25,Married,3,Human Resources,9,0,1,0,Travel_Rarely,1,2013-01-16,Human Resources,Human Resources,2,6223,18206,1,,3,19,2,4,3,4,1,3
+67247,E067247,1496,Triya,Dasgupta,e067247@example.com,Male,1982-06-24,Single,1,Medical,2,5,12,0,Travel_Frequently,1,2022-10-24,Research & Development,Manufacturing Director,3,9524,60447,1,,3,18,2,3,2,2,2,2
+88808,E088808,1876,Rishi,Dora,e088808@example.com,Male,1994-05-13,Single,3,Medical,9,1,0,0,Travel_Rarely,0,2025-02-24,Sales,Sales Representative,1,1009,41014,0,2025-10-20,3,13,3,4,2,3,2,3
+13122,E013122,1255,Isha,Bhatnagar,e013122@example.com,Male,1982-03-13,Married,3,Life Sciences,3,3,18,1,Travel_Rarely,0,2018-10-26,Research & Development,Research Director,5,18278,,1,,3,14,2,4,3,2,3,1
+8258,E008258,1586,Lavanya,Chaudry,e008258@example.com,Male,1996-11-08,Single,1,Medical,3,1,2,0,Travel_Rarely,1,2016-04-15,Research & Development,Laboratory Technician,1,4968,10084,1,,3,18,3,1,2,1,3,3
+93381,E093381,1654,Reva,Banik,e093381@example.com,Male,1985-12-21,Married,3,Medical,12,4,1,0,Travel_Rarely,0,2020-01-05,Research & Development,Manufacturing Director,2,5214,19036,1,,4,21,3,2,4,3,3,3
+13915,E013915,961,Aditya,Chana,e013915@example.com,Female,1995-10-28,Married,3,Medical,12,0,1,2,Travel_Rarely,1,2015-05-30,Research & Development,Healthcare Representative,2,5514,66505,1,,3,11,3,4,4,3,3,3
+30903,E030903,1860,Forum,Sarraf,e030903@example.com,Male,1985-07-27,Single,3,Life Sciences,8,4,7,0,Travel_Rarely,0,2024-05-31,Research & Development,Laboratory Technician,1,3739,56706,1,,3,13,3,3,4,4,3,3
+72859,E072859,325,Chameli,Munshi,e072859@example.com,Male,1991-11-14,Married,3,Medical,14,5,4,1,Travel_Rarely,1,2020-06-05,Research & Development,Laboratory Technician,1,2258,34759,0,2025-03-06,3,13,2,4,3,3,3,3
+20293,E020293,334,Aryan,Babu,e020293@example.com,Male,1985-07-02,Divorced,2,Life Sciences,19,2,17,2,Travel_Rarely,0,2024-01-28,Research & Development,Research Scientist,2,2642,91703,1,,3,16,2,1,3,2,2,3
+58171,E058171,1863,Luke,Comar,e058171@example.com,Female,1978-08-19,Divorced,3,Technical Degree,3,2,8,1,Travel_Rarely,0,2007-03-02,Sales,Sales Executive,4,13104,32038,1,,3,12,5,1,1,4,3,4
+20950,E020950,1602,Oscar,Morar,e020950@example.com,Male,1977-08-27,Single,4,Life Sciences,1,1,1,0,Travel_Rarely,0,1999-08-25,Sales,Manager,4,16312,4873,1,,3,15,5,1,4,2,3,3
+36695,E036695,11,Jalsa,Behl,e036695@example.com,Male,1995-09-09,Divorced,1,Life Sciences,24,1,0,1,Travel_Rarely,0,2023-01-27,Research & Development,Laboratory Technician,1,2464,46722,1,,4,22,2,3,4,2,3,3
+8526,E008526,1678,Chasmum,Memon,e008526@example.com,Male,1982-03-21,Single,2,Life Sciences,23,3,18,0,Travel_Rarely,1,2023-03-23,Sales,Sales Executive,3,6676,36591,1,,3,16,2,3,4,4,3,3
+78272,E078272,300,Balvan,Prashad,e078272@example.com,Male,1995-07-01,Single,3,Technical Degree,1,0,2,0,Travel_Rarely,0,2019-02-09,Research & Development,Research Scientist,1,1983,13258,0,2023-11-27,3,14,1,3,3,4,2,3
+77403,E077403,578,Charvi,Golla,e077403@example.com,Female,1971-10-05,Single,4,Life Sciences,8,7,19,0,Travel_Rarely,0,2024-11-08,Research & Development,Laboratory Technician,2,4041,17253,1,,3,11,3,3,3,2,3,1
+77652,E077652,410,Laban,Kari,e077652@example.com,Male,1983-12-11,Single,4,Life Sciences,2,1,0,0,Travel_Rarely,0,2004-10-26,Sales,Manager,4,14920,50111,1,,3,19,2,2,4,2,3,3
+99837,E099837,813,Laban,Kari,e099837@example.com,Female,1975-11-29,Married,4,Life Sciences,11,8,5,1,Travel_Rarely,0,2021-05-15,Research & Development,Laboratory Technician,2,3030,89388,1,,4,20,3,3,4,2,3,3
+92272,E092272,1216,Garima,Murty,e092272@example.com,Male,1995-02-16,Married,4,Medical,19,1,0,3,Travel_Rarely,0,2018-08-09,Research & Development,Laboratory Technician,1,3223,44463,1,,3,12,2,1,4,3,3,2
+29776,E029776,131,Balvan,Basak,e029776@example.com,Male,1966-05-02,Single,4,Medical,10,0,3,0,Travel_Rarely,0,1989-02-18,Sales,Sales Executive,4,13041,32164,1,,3,13,1,3,4,3,2,3
+34808,E034808,1192,Yutika,Behl,e034808@example.com,Female,1996-06-07,Married,1,Medical,6,1,0,1,Travel_Rarely,0,2014-12-28,Research & Development,Laboratory Technician,1,3341,39328,1,,3,13,5,4,2,1,3,3
+16886,E016886,1331,Triya,Singhal,e016886@example.com,Female,1993-06-08,Single,3,Life Sciences,1,1,0,0,Travel_Frequently,1,2022-03-14,Sales,Sales Representative,1,2162,3290,0,2025-11-16,3,11,2,2,4,1,4,2
+49984,E049984,566,Daksh,Raja,e049984@example.com,Male,2004-10-03,Single,2,Technical Degree,2,1,0,0,Travel_Rarely,0,2023-08-15,Human Resources,Human Resources,1,2426,79834,0,2025-01-13,3,12,3,4,2,3,4,2
+62615,E062615,118,Neha,Gera,e062615@example.com,Male,1979-08-02,Single,2,Medical,9,1,1,0,Travel_Rarely,0,2016-02-05,Sales,Sales Executive,3,10715,89862,0,2022-04-23,3,16,3,4,3,4,3,2
+14229,E014229,1055,Praneel,Ganesan,e014229@example.com,Female,1991-09-18,Married,4,Life Sciences,10,1,1,1,Travel_Rarely,1,2024-08-21,Sales,Sales Representative,1,2143,63471,1,,3,19,2,3,3,4,3,3
+52177,E052177,2025,Balhaar,Dhar,e052177@example.com,Female,1988-04-06,Divorced,2,Life Sciences,4,7,15,3,Travel_Frequently,0,2021-11-02,Research & Development,Manufacturing Director,2,5585,82351,1,,3,13,3,2,4,2,3,3
+8029,E008029,1700,Zaid,Solanki,e008029@example.com,Male,1989-05-27,Divorced,4,Medical,1,1,1,2,Travel_Frequently,0,2020-04-12,Sales,Sales Executive,2,9185,90385,1,,3,14,2,2,1,3,2,1
+28922,E028922,1150,Jackson,Bedi,e028922@example.com,Male,1996-10-22,Married,1,Medical,8,1,0,1,Travel_Rarely,1,2015-10-05,Research & Development,Manufacturing Director,2,4179,31456,1,,3,15,2,4,2,1,2,2
+69420,E069420,183,Nakul,Saran,e069420@example.com,Male,1998-07-20,Married,3,Life Sciences,28,2,5,0,Travel_Rarely,0,2023-05-06,Sales,Sales Executive,2,8265,69273,1,,3,18,3,3,1,4,3,2
+70812,E070812,363,Baljiwan,Chadha,e070812@example.com,Female,1980-04-25,Married,3,Technical Degree,2,3,21,1,Travel_Rarely,1,2019-07-22,Sales,Manager,4,17022,84312,1,,3,12,2,2,2,2,2,1
+34364,E034364,880,Aarna,Dhar,e034364@example.com,Female,1989-07-22,Married,3,Life Sciences,9,1,0,1,Travel_Rarely,1,2008-01-18,Research & Development,Manufacturing Director,3,10727,13053,1,,4,20,2,3,4,2,3,2
+43204,E043204,131,Lakshit,Hegde,e043204@example.com,Male,1968-08-05,Single,4,Medical,10,0,1,0,Travel_Rarely,0,1988-09-14,Sales,Sales Executive,4,12169,5433,1,,3,13,2,3,4,3,2,3
+36795,E036795,1736,Darsh,Hayre,e036795@example.com,Female,1994-03-07,Single,1,Technical Degree,24,2,6,0,Travel_Frequently,0,2021-02-23,Research & Development,Manufacturing Director,2,5819,96512,1,,4,20,3,4,4,4,2,3
+97027,E097027,269,Leena,Sekhon,e097027@example.com,Female,1988-06-08,Single,3,Medical,2,5,3,0,Travel_Frequently,0,2018-06-30,Research & Development,Laboratory Technician,2,3820,96227,1,,3,11,5,2,2,4,3,3
+63343,E063343,1651,Xiti,Mohan,e063343@example.com,Female,1987-10-13,Married,4,Life Sciences,5,4,8,2,Travel_Rarely,0,2023-09-14,Research & Development,Healthcare Representative,3,9480,43844,1,,3,12,6,1,2,2,3,3
+36956,E036956,478,Isha,Bhalla,e036956@example.com,Female,2002-10-17,Single,1,Technical Degree,1,1,0,0,Travel_Frequently,1,2021-07-08,Sales,Sales Representative,1,2187,30641,0,2025-01-15,3,11,3,2,1,4,3,2
+69229,E069229,456,Christopher,Rajagopalan,e069229@example.com,Female,1994-10-16,Divorced,3,Marketing,5,1,0,3,Travel_Rarely,0,2015-10-24,Sales,Sales Executive,2,5964,12680,1,,3,13,2,3,4,3,3,2
+9424,E009424,1108,Edhitha,Krishnan,e009424@example.com,Male,1994-11-27,Single,3,Medical,25,4,3,0,Travel_Rarely,1,2024-12-30,Research & Development,Research Scientist,1,2253,88692,0,2025-03-24,4,20,0,2,1,2,3,2
+86001,E086001,103,Yashasvi,Bir,e086001@example.com,Male,1980-10-11,Divorced,2,Medical,5,8,13,1,Travel_Rarely,1,2022-06-03,Human Resources,Human Resources,2,5351,512,1,,4,22,2,4,2,4,3,3
+16959,E016959,269,Krisha,Bhalla,e016959@example.com,Female,1988-01-04,Single,3,Medical,2,5,5,0,Travel_Frequently,0,2019-01-16,Research & Development,Laboratory Technician,2,4241,36275,1,,3,11,5,2,2,4,3,3
+21615,E021615,271,Urmi,Bal,e021615@example.com,Male,1986-07-04,Married,4,Life Sciences,2,9,13,0,Travel_Rarely,0,2024-11-03,Research & Development,Manufacturing Director,2,5995,84326,1,,3,14,3,3,4,2,3,3
+61462,E061462,1864,Devika,Zachariah,e061462@example.com,Female,1997-06-26,Married,1,Medical,23,1,0,1,Travel_Rarely,0,2015-06-26,Sales,Sales Representative,2,3807,23436,1,,4,21,5,3,2,4,3,2
+61774,E061774,1560,Yashawini,Venkatesh,e061774@example.com,Male,1990-06-10,Married,4,Life Sciences,8,2,6,1,Travel_Rarely,0,2022-12-17,Sales,Sales Executive,2,7096,1856,1,,3,13,6,1,1,4,1,3
+86802,E086802,1670,Luke,Rau,e086802@example.com,Male,1990-03-22,Divorced,4,Medical,2,1,0,2,Travel_Rarely,0,2020-04-30,Sales,Sales Executive,2,5286,6573,1,,3,14,5,4,4,3,3,3
+67503,E067503,2016,Vinaya,Bhatt,e067503@example.com,Female,1991-05-23,Married,4,Marketing,1,1,1,2,Travel_Rarely,0,2012-02-24,Sales,Sales Executive,3,10028,28633,1,,3,19,3,3,3,3,4,3
+79371,E079371,379,Ishani,Solanki,e079371@example.com,Male,2004-01-09,Single,2,Medical,3,1,0,0,Travel_Rarely,0,2022-08-19,Research & Development,Research Scientist,1,3155,11000,1,,3,17,4,3,4,1,4,2
+34497,E034497,705,Tanmayi,Mitra,e034497@example.com,Male,2001-04-27,Married,3,Medical,4,2,0,1,Travel_Rarely,0,2021-09-24,Research & Development,Research Scientist,1,2824,83143,1,,3,16,3,1,1,1,4,4
+43009,E043009,844,Aarush,Verma,e043009@example.com,Male,1998-06-18,Divorced,1,Technical Degree,5,1,0,1,Travel_Rarely,1,2016-06-18,Research & Development,Research Director,3,13263,65486,1,,3,16,3,4,3,2,3,2
+91598,E091598,355,Sarthak,Dugar,e091598@example.com,Male,1995-03-21,Single,2,Medical,29,0,1,0,Travel_Frequently,0,2019-05-21,Research & Development,Laboratory Technician,1,3623,48003,0,2023-07-29,3,11,2,2,3,2,4,2
+75439,E075439,264,Agastya,Ghose,e075439@example.com,Male,1978-07-11,Married,2,Medical,2,9,0,1,Non-Travel,0,2004-08-24,Research & Development,Manager,4,16776,8772,1,,4,23,1,4,1,4,3,2
+29720,E029720,773,Abeer,Gour,e029720@example.com,Male,1987-07-06,Married,5,Medical,2,6,4,1,Travel_Rarely,1,2023-08-31,Research & Development,Research Scientist,1,3027,65403,1,,3,13,0,3,4,2,1,3
+38607,E038607,1239,Wyatt,Deshmukh,e038607@example.com,Female,1986-08-29,Divorced,3,Technical Degree,10,7,2,1,Travel_Rarely,0,2019-04-16,Sales,Sales Executive,2,5976,79353,1,,3,12,2,3,2,2,4,2
+77127,E077127,991,Kai,Pal,e077127@example.com,Male,1994-11-12,Single,2,Medical,9,0,0,0,Non-Travel,1,2021-05-16,Research & Development,Research Scientist,1,2683,45835,0,2024-09-11,4,22,0,1,3,1,3,2
+97088,E097088,1263,Hritik,Misra,e097088@example.com,Male,1975-12-02,Single,3,Life Sciences,1,6,25,0,Travel_Rarely,0,2025-04-27,Research & Development,Research Director,5,18041,,1,,3,12,3,4,4,3,4,4
+24627,E024627,262,Balveer,Bail,e024627@example.com,Male,1981-05-24,Divorced,3,Medical,7,4,1,3,Non-Travel,0,2020-05-05,Research & Development,Research Scientist,1,1829,80429,1,,3,14,3,4,4,4,4,4
+61815,E061815,1430,Nitesh,Mani,e061815@example.com,Female,1994-07-07,Single,5,Life Sciences,8,3,8,0,Travel_Rarely,0,2023-11-10,Research & Development,Research Director,4,17296,59657,1,,3,11,3,2,1,3,4,3
+69756,E069756,98,Bina,Seth,e069756@example.com,Female,1995-09-09,Single,4,Life Sciences,8,1,2,0,Travel_Rarely,0,2015-08-20,Research & Development,Manufacturing Director,2,4467,97506,1,,4,23,2,4,3,4,3,3
+11931,E011931,1580,Bhanumati,Minhas,e011931@example.com,Male,1989-02-15,Married,4,Life Sciences,1,9,6,1,Travel_Rarely,0,2023-03-03,Research & Development,Research Scientist,2,5965,64228,1,,3,17,2,4,2,2,2,3
+16161,E016161,1135,Oliver,Dara,e016161@example.com,Male,1992-01-03,Married,3,Life Sciences,20,0,1,1,Travel_Frequently,0,2023-11-13,Sales,Sales Representative,1,2822,77776,1,,3,12,4,4,3,1,3,4
+47440,E047440,1495,Adya,Khanna,e047440@example.com,Female,2003-06-15,Married,2,Life Sciences,13,1,1,1,Non-Travel,0,2025-09-30,Sales,Sales Representative,1,1850,27831,1,,3,13,2,2,4,3,3,3
+34606,E034606,446,Jyoti,Ramachandran,e034606@example.com,Male,1992-02-06,Single,3,Marketing,10,3,1,0,Travel_Frequently,0,2017-10-29,Sales,Sales Executive,2,5113,87551,1,,3,14,6,4,2,3,2,2
+14107,E014107,1824,Niharika,Ratta,e014107@example.com,Male,1969-07-28,Divorced,3,Medical,2,4,22,1,Non-Travel,0,2009-08-30,Sales,Manager,4,15797,36219,1,,4,22,0,2,2,4,4,3
+90651,E090651,1001,Riya,Vala,e090651@example.com,Female,1999-01-04,Married,4,Technical Degree,16,9,3,1,Travel_Rarely,0,2023-01-06,Research & Development,Laboratory Technician,1,2929,67650,1,,3,14,2,3,3,2,3,3
+98435,E098435,1036,Yuvraj,Deshmukh,e098435@example.com,Male,1988-05-23,Single,4,Life Sciences,3,8,17,0,Travel_Rarely,1,2023-09-23,Sales,Sales Executive,2,7373,29969,1,,3,12,6,4,2,3,3,3
+17503,E017503,1932,Nitara,Brahmbhatt,e017503@example.com,Male,1991-02-02,Married,4,Other,22,1,0,0,Travel_Frequently,1,2009-11-27,Research & Development,Research Scientist,2,5548,51799,1,,3,15,3,4,3,2,3,2
+63486,E063486,1639,Amruta,Jaggi,e063486@example.com,Male,1989-09-30,Married,3,Medical,10,9,1,0,Travel_Rarely,0,2012-12-15,Sales,Sales Executive,3,10603,19793,0,2020-09-14,3,17,3,1,4,3,3,2
+33076,E033076,1653,Noah,Khatri,e033076@example.com,Male,1998-05-23,Divorced,1,Life Sciences,2,1,0,2,Travel_Frequently,0,2017-11-30,Research & Development,Manufacturing Director,2,4923,23283,1,,3,17,6,3,3,4,3,4
+79809,E079809,338,Priya,Divan,e079809@example.com,Female,1993-03-25,Married,4,Life Sciences,5,1,0,1,Travel_Rarely,0,2023-05-19,Research & Development,Research Scientist,1,2896,81645,1,,3,13,2,4,3,3,2,2
+90791,E090791,1780,Irya,Badal,e090791@example.com,Male,2005-01-24,Single,1,Marketing,7,1,0,0,Travel_Rarely,0,2023-06-01,Sales,Sales Representative,1,2759,36593,0,2025-07-16,3,13,3,2,4,2,3,3
+93365,E093365,1668,Dhruv,Mishra,e093365@example.com,Male,1985-09-15,Married,3,Life Sciences,1,7,5,2,Travel_Frequently,0,2011-04-27,Research & Development,Research Scientist,2,5371,77910,1,,3,15,4,4,4,4,4,3
+18293,E018293,1152,Ekta,Bahri,e018293@example.com,Male,1989-05-30,Married,3,Human Resources,1,1,0,1,Travel_Rarely,0,2018-02-27,Human Resources,Human Resources,1,2805,66326,1,,3,13,2,3,3,2,4,4
+43850,E043850,296,Sachi,Rai,e043850@example.com,Male,1975-12-01,Married,4,Life Sciences,8,5,5,2,Travel_Rarely,0,2014-03-28,Research & Development,Research Director,3,13757,36772,1,,3,16,5,2,2,3,1,2
+35068,E035068,1798,Yashvi,Mand,e035068@example.com,Male,1990-07-18,Married,4,Life Sciences,8,6,2,1,Travel_Rarely,0,2014-12-19,Research & Development,Research Scientist,1,3108,49753,1,,3,19,1,1,4,2,3,4
+61393,E061393,1728,Sathvik,Sarin,e061393@example.com,Male,1989-01-24,Married,4,Life Sciences,27,2,10,1,Travel_Rarely,0,2017-09-21,Research & Development,Manufacturing Director,2,6697,80971,1,,3,16,3,2,4,2,3,3
+27382,E027382,1864,Falan,Nagy,e027382@example.com,Female,1999-01-17,Married,1,Medical,23,1,0,1,Travel_Rarely,0,2017-10-10,Sales,Sales Representative,2,3635,68,1,,4,21,5,3,2,4,3,2
+85414,E085414,964,Samuel,Sodhi,e085414@example.com,Male,1987-03-01,Divorced,4,Medical,9,8,2,1,Travel_Frequently,1,2024-06-27,Research & Development,Research Scientist,1,3417,80943,1,,3,14,2,2,3,4,3,3
+13798,E013798,1105,Zayyan,Memon,e013798@example.com,Female,1986-02-08,Divorced,4,Life Sciences,10,2,7,3,Travel_Rarely,1,2024-02-23,Sales,Sales Executive,2,5855,99577,1,,3,14,5,4,4,3,4,2
+1729,E001729,1015,Baghyawati,More,e001729@example.com,Female,1993-07-07,Married,2,Life Sciences,8,0,0,3,Travel_Rarely,1,2016-05-06,Research & Development,Research Director,3,11368,92727,1,,3,12,4,1,2,3,2,4
+66101,E066101,631,Pavani,Thakkar,e066101@example.com,Male,1993-08-18,Married,4,Other,11,8,3,0,Non-Travel,0,2021-07-11,Sales,Sales Executive,2,4575,74840,0,2023-02-12,3,12,5,3,4,4,3,4
+7678,E007678,291,Lucky,Banik,e007678@example.com,Male,1992-08-18,Married,4,Medical,4,1,1,0,Travel_Rarely,0,2011-08-26,Sales,Sales Executive,3,10943,66701,0,2020-01-29,3,11,2,4,4,3,2,3
+73315,E073315,2046,Frederick,Bajaj,e073315@example.com,Female,1982-01-16,Single,3,Life Sciences,20,8,3,0,Travel_Rarely,0,2020-06-20,Sales,Sales Executive,2,4973,50032,1,,3,15,3,3,4,3,3,3
+69696,E069696,776,Ikbal,Sahni,e069696@example.com,Male,1971-10-13,Married,4,Marketing,3,1,1,0,Travel_Rarely,0,1992-04-01,Sales,Manager,4,17924,4924,1,,3,11,3,1,3,1,4,2
+5439,E005439,2065,Yashodhara,Peri,e005439@example.com,Male,1974-01-12,Married,3,Medical,2,2,8,0,Travel_Frequently,0,2016-10-03,Sales,Sales Executive,2,4862,95526,1,,3,14,3,2,4,4,2,2
+73381,E073381,423,Xavier,Char,e073381@example.com,Male,1992-05-02,Married,4,Technical Degree,5,0,2,1,Travel_Rarely,1,2020-09-25,Research & Development,Research Scientist,1,4519,34217,1,,3,12,4,4,3,3,3,3
+34591,E034591,1829,Dipta,Chahal,e034591@example.com,Female,1987-12-18,Divorced,3,Life Sciences,12,2,6,1,Travel_Rarely,0,2017-01-05,Research & Development,Healthcare Representative,2,4475,22899,1,,3,12,3,1,2,2,3,3
+8453,E008453,1295,Dayamai,Balay,e008453@example.com,Female,1980-05-19,Married,3,Medical,15,1,1,1,Travel_Rarely,0,2015-02-08,Research & Development,Healthcare Representative,3,8077,44440,0,2018-06-10,3,11,2,4,1,4,3,3
+6235,E006235,1922,Damyanti,Comar,e006235@example.com,Male,1978-09-17,Single,4,Medical,1,4,9,0,Travel_Frequently,0,2021-01-31,Research & Development,Healthcare Representative,2,6065,27920,1,,3,12,3,3,2,3,3,3
+56580,E056580,901,Bhanumati,Rastogi,e056580@example.com,Female,1970-12-24,Single,4,Life Sciences,23,6,21,0,Travel_Rarely,0,2012-10-03,Research & Development,Research Director,4,13370,5380,1,,3,18,0,4,4,3,3,3
+44069,E044069,380,Wahab,Raju,e044069@example.com,Female,1989-12-12,Divorced,4,Medical,1,2,12,2,Non-Travel,1,2021-12-28,Research & Development,Research Director,3,13757,51091,1,,3,18,3,4,1,1,3,2
+73662,E073662,119,Veda,Lal,e073662@example.com,Male,1983-06-13,Married,4,Life Sciences,1,1,1,1,Travel_Frequently,0,2003-08-26,Research & Development,Healthcare Representative,4,14303,74570,1,,4,22,3,2,3,4,2,2
+18242,E018242,905,Ranveer,Naik,e018242@example.com,Male,1975-05-28,Divorced,4,Life Sciences,2,1,0,1,Non-Travel,0,1993-05-28,Research & Development,Manager,4,17924,12551,1,,3,11,3,1,1,4,3,3
+72560,E072560,1280,Ishani,Mahal,e072560@example.com,Female,1978-08-23,Married,2,Marketing,4,2,14,1,Travel_Rarely,0,2014-10-23,Sales,Manager,5,19871,,1,,3,14,2,2,4,3,3,2
+11373,E011373,1046,Radhika,Dugal,e011373@example.com,Female,1995-08-02,Single,4,Medical,29,9,4,0,Non-Travel,0,2018-11-21,Research & Development,Laboratory Technician,1,3696,95072,1,,3,12,2,1,4,4,3,3
+53068,E053068,264,Gauri,Sem,e053068@example.com,Male,1979-03-25,Married,2,Medical,2,9,2,1,Non-Travel,0,2005-12-26,Research & Development,Manager,4,17665,64101,1,,4,23,1,4,1,4,2,2
+54397,E054397,277,Jagrati,Chander,e054397@example.com,Male,1993-10-01,Divorced,4,Medical,10,1,0,1,Travel_Frequently,1,2020-06-26,Research & Development,Research Scientist,1,4048,55205,1,,3,17,4,3,4,4,4,3
+60744,E060744,1573,Tara,Randhawa,e060744@example.com,Male,1988-01-30,Married,3,Medical,2,4,1,2,Travel_Rarely,0,2020-05-09,Research & Development,Manufacturing Director,2,4573,64165,0,2025-10-09,3,11,2,2,3,1,3,3
+4233,E004233,657,Parth,Banik,e004233@example.com,Female,2004-06-22,Single,3,Life Sciences,1,1,0,0,Travel_Rarely,0,2024-07-23,Research & Development,Research Scientist,1,3036,77164,1,,3,13,0,2,4,4,4,2
+66150,E066150,581,Ikbal,Gour,e066150@example.com,Male,1993-05-25,Divorced,1,Life Sciences,9,1,0,1,Travel_Rarely,0,2011-12-23,Research & Development,Manufacturing Director,3,10190,99532,1,,4,25,6,2,3,4,4,3
+227,E000227,1040,Vidhi,Luthra,e000227@example.com,Female,1973-01-31,Married,3,Life Sciences,1,0,1,1,Non-Travel,0,2006-05-19,Sales,Sales Executive,2,6051,29152,1,,3,12,3,3,4,1,3,3
+38051,E038051,1231,Faras,Kapadia,e038051@example.com,Male,1985-02-14,Married,5,Medical,2,7,5,1,Non-Travel,0,2020-12-17,Human Resources,Human Resources,2,6794,37114,1,,3,16,3,1,4,1,4,4
+75831,E075831,1501,Manan,Borah,e075831@example.com,Male,1968-10-23,Married,4,Life Sciences,4,0,2,0,Travel_Rarely,1,2023-12-29,Research & Development,Healthcare Representative,2,4567,12999,1,,3,16,2,3,4,2,3,3
+11713,E011713,969,Yahvi,Varughese,e011713@example.com,Female,1991-09-27,Single,3,Life Sciences,1,0,2,0,Travel_Rarely,0,2020-12-01,Research & Development,Healthcare Representative,2,7178,81612,1,,3,14,3,1,2,1,3,2
+89799,E089799,61,Janya,Khosla,e089799@example.com,Male,1986-04-08,Married,2,Life Sciences,19,4,8,0,Travel_Rarely,0,2024-06-22,Research & Development,Research Scientist,1,3168,78795,1,,4,21,1,1,2,1,3,3
+84722,E084722,1034,Aadhya,Nayar,e084722@example.com,Male,1968-10-15,Married,4,Medical,18,3,7,2,Travel_Frequently,1,2016-07-09,Research & Development,Healthcare Representative,2,5700,91943,1,,3,14,3,2,3,3,3,3
+11651,E011651,879,Daksha,Datta,e011651@example.com,Male,1999-10-07,Married,1,Other,3,1,1,0,Travel_Rarely,1,2021-05-30,Sales,Sales Executive,2,3632,99468,1,,3,18,2,1,3,4,3,3
+63793,E063793,1234,Ekbal,Baral,e063793@example.com,Female,1991-06-20,Married,3,Other,13,1,1,1,Travel_Frequently,0,2024-12-31,Research & Development,Laboratory Technician,1,2900,46912,1,,4,20,2,2,3,3,4,2
+18332,E018332,397,Anya,Tailor,e018332@example.com,Male,1989-01-05,Single,3,Technical Degree,3,4,1,0,Travel_Rarely,0,2016-01-23,Research & Development,Research Scientist,2,5015,39788,1,,3,12,2,2,3,4,3,3
+59465,E059465,352,Nirja,Keer,e059465@example.com,Male,1985-09-26,Divorced,2,Medical,2,0,0,1,Travel_Rarely,0,2003-09-26,Research & Development,Research Director,5,19999,,1,,3,19,5,3,1,4,3,3
+31839,E031839,1013,Chaitanya,Kalita,e031839@example.com,Female,1973-02-23,Married,3,Technical Degree,17,8,10,1,Travel_Rarely,0,2014-01-21,Research & Development,Manufacturing Director,3,10537,56188,1,,3,11,2,3,3,3,3,3
+35888,E035888,31,Sudiksha,Khalsa,e035888@example.com,Male,1990-10-31,Single,1,Medical,6,2,4,0,Travel_Rarely,0,2022-07-31,Research & Development,Research Scientist,1,3254,31743,0,2024-02-21,3,11,2,1,2,3,3,2
+70558,E070558,116,Jalsa,Balay,e070558@example.com,Male,1973-07-22,Married,4,Life Sciences,9,3,5,2,Travel_Rarely,0,2021-04-13,Research & Development,Laboratory Technician,1,1954,21140,1,,4,23,4,4,4,2,3,3
+68842,E068842,469,Indira,Peri,e068842@example.com,Male,1998-12-04,Married,3,Life Sciences,2,1,0,1,Non-Travel,0,2020-01-27,Sales,Sales Executive,2,4463,63486,1,,3,14,3,3,4,1,2,3
+44300,E044300,1555,Krishna,Nagar,e044300@example.com,Female,1991-01-03,Married,2,Life Sciences,5,3,7,1,Travel_Rarely,0,2019-12-06,Research & Development,Research Scientist,2,6394,38827,1,,3,12,2,2,4,1,3,2
+39432,E039432,933,Irya,Talwar,e039432@example.com,Female,2000-01-09,Single,3,Life Sciences,4,1,0,0,Travel_Rarely,0,2024-08-04,Research & Development,Research Scientist,1,1974,10905,1,,3,19,2,3,2,3,3,3
+71758,E071758,725,Vihaan,Varkey,e071758@example.com,Female,1997-04-04,Married,2,Life Sciences,1,1,2,0,Travel_Rarely,0,2017-09-01,Research & Development,Manufacturing Director,3,7211,2649,1,,3,11,3,1,3,1,3,3
+51267,E051267,655,Akshay,Pall,e051267@example.com,Female,2000-04-02,Divorced,4,Medical,6,0,0,2,Travel_Rarely,0,2019-01-04,Research & Development,Research Scientist,1,2383,77874,1,,3,12,5,3,1,3,2,2
+49809,E049809,429,Vanya,Randhawa,e049809@example.com,Male,1985-05-28,Married,1,Medical,10,1,0,0,Travel_Rarely,1,2004-07-03,Research & Development,Manager,4,14864,15153,1,,3,14,3,1,3,4,3,3
+86689,E086689,1338,Vrinda,Gala,e086689@example.com,Male,1969-06-28,Single,4,Life Sciences,8,6,31,0,Travel_Rarely,0,2019-04-28,Human Resources,Manager,5,19170,,1,,3,14,4,2,4,1,3,3
+61005,E061005,256,Faris,Sinha,e061005@example.com,Male,1989-08-02,Married,1,Life Sciences,2,1,0,0,Travel_Frequently,0,2014-12-29,Research & Development,Manufacturing Director,2,8035,55274,1,,3,17,2,3,4,3,2,2
+60771,E060771,900,Mason,Setty,e060771@example.com,Female,1989-12-30,Married,2,Medical,21,5,3,1,Travel_Frequently,0,2019-03-04,Sales,Sales Representative,1,3066,65511,1,,3,15,3,4,3,2,3,3
+88,E000088,404,Priya,Tella,e000088@example.com,Female,1984-02-23,Married,3,Marketing,26,5,3,1,Travel_Frequently,0,2006-06-07,Sales,Sales Executive,4,14204,34934,1,,3,14,2,2,3,4,4,3
+77204,E077204,78,Hemani,Bahl,e077204@example.com,Male,1995-02-14,Married,3,Medical,1,1,0,1,Travel_Rarely,1,2017-12-05,Research & Development,Manufacturing Director,2,6371,1952,1,,4,22,3,4,1,2,3,3
+51988,E051988,1525,Ekapad,Karpe,e051988@example.com,Female,1986-10-27,Single,3,Life Sciences,6,4,8,0,Travel_Rarely,0,2023-03-01,Research & Development,Manufacturing Director,3,7667,68027,1,,3,18,3,2,2,4,3,3
+82150,E082150,444,Yamini,Doctor,e082150@example.com,Male,1985-09-23,Married,2,Medical,7,1,2,1,Travel_Frequently,0,2005-01-16,Research & Development,Manager,5,19738,,1,,3,15,2,4,3,1,3,2
+43734,E043734,1516,Diya,Chatterjee,e043734@example.com,Male,1992-08-31,Single,3,Medical,10,2,6,0,Travel_Rarely,0,2020-02-07,Research & Development,Manager,3,10577,11456,1,,4,25,5,4,3,2,4,3
+95182,E095182,843,Nihal,Virk,e095182@example.com,Male,1980-08-06,Married,2,Life Sciences,14,6,19,1,Travel_Rarely,0,2021-12-20,Research & Development,Research Director,4,17109,4768,1,,4,24,3,1,2,3,3,3
+88477,E088477,277,Radhika,Soman,e088477@example.com,Male,1990-09-02,Divorced,4,Medical,10,1,1,1,Travel_Frequently,1,2021-01-13,Research & Development,Research Scientist,1,3908,46148,1,,3,17,4,3,4,4,4,3
+62006,E062006,1218,Darpan,Kamdar,e062006@example.com,Male,1991-10-26,Married,4,Life Sciences,17,3,10,3,Travel_Rarely,1,2019-10-02,Sales,Sales Executive,2,9034,47120,1,,3,15,2,1,4,4,3,3
+30884,E030884,1782,Megha,Sahota,e030884@example.com,Female,1986-11-05,Married,2,Other,6,1,2,1,Travel_Rarely,0,2021-04-17,Research & Development,Laboratory Technician,1,4161,82670,1,,3,11,3,3,4,2,3,2
+50767,E050767,177,Raghav,Jani,e050767@example.com,Female,1999-04-08,Married,1,Life Sciences,25,1,0,1,Travel_Rarely,0,2017-08-14,Human Resources,Human Resources,1,2827,47052,1,,4,23,3,3,3,4,3,3
+74956,E074956,1728,Tarak,Palan,e074956@example.com,Male,1989-11-21,Married,4,Life Sciences,27,2,10,1,Travel_Rarely,0,2017-05-12,Research & Development,Manufacturing Director,2,6610,2203,1,,3,16,3,3,4,2,3,3
+12751,E012751,766,Geetika,Ravi,e012751@example.com,Male,1997-08-11,Divorced,3,Marketing,10,1,0,2,Travel_Rarely,0,2023-12-03,Sales,Sales Representative,1,2307,98277,1,,3,14,2,2,4,4,3,3
+36507,E036507,1733,Urmi,Banerjee,e036507@example.com,Male,1988-03-07,Divorced,5,Marketing,13,5,16,3,Travel_Rarely,1,2024-08-17,Sales,Sales Executive,2,6034,40106,0,2025-01-06,3,13,3,1,2,2,3,2
+9938,E009938,1599,Ranbir,Sethi,e009938@example.com,Male,1983-08-24,Divorced,3,Technical Degree,27,5,2,1,Travel_Rarely,0,2020-09-28,Research & Development,Laboratory Technician,1,4968,87163,1,,3,12,0,1,4,3,3,4
+18374,E018374,1549,Hema,Setty,e018374@example.com,Male,1991-12-21,Married,4,Life Sciences,28,1,2,1,Travel_Rarely,1,2011-06-09,Research & Development,Laboratory Technician,2,4739,37618,1,,3,12,1,3,2,2,3,3
+92221,E092221,329,Pooja,Mall,e092221@example.com,Male,1972-10-15,Single,4,Life Sciences,2,1,1,0,Non-Travel,1,1993-07-14,Sales,Manager,5,19999,,1,,3,18,2,3,4,4,4,2
+90730,E090730,1079,Ekanta,Buch,e090730@example.com,Female,2002-02-22,Single,3,Life Sciences,10,1,1,0,Travel_Rarely,0,2024-03-21,Research & Development,Laboratory Technician,1,1473,55728,0,2025-02-13,3,13,6,1,4,1,3,2
+12397,E012397,118,Laban,Gill,e012397@example.com,Male,1980-12-27,Single,2,Medical,9,1,0,0,Travel_Rarely,0,2015-07-16,Sales,Sales Executive,3,10116,69031,0,2024-03-02,3,16,3,4,3,4,3,2
+94922,E094922,995,Utkarsh,Banik,e094922@example.com,Female,1993-10-24,Single,1,Life Sciences,13,3,4,0,Travel_Rarely,0,2023-06-01,Research & Development,Research Scientist,1,3011,56581,1,,3,18,4,1,2,1,2,3
+33802,E033802,564,Kiaan,Mani,e033802@example.com,Male,1996-05-06,Married,4,Medical,3,1,0,0,Travel_Rarely,0,2014-05-06,Research & Development,Research Director,3,11772,72108,1,,3,18,2,3,2,3,3,2
+1231,E001231,775,Ansh,Trivedi,e001231@example.com,Female,1993-01-07,Divorced,5,Life Sciences,8,3,7,1,Travel_Rarely,0,2024-06-19,Research & Development,Manufacturing Director,2,4862,66412,1,,3,14,3,1,2,3,3,3
+20335,E020335,698,Yashvi,Setty,e020335@example.com,Male,1969-08-11,Married,4,Medical,19,2,7,1,Travel_Rarely,0,2016-02-21,Human Resources,Human Resources,3,10987,40326,1,,3,15,3,2,3,3,4,3
+78044,E078044,2024,Oviya,Sagar,e078044@example.com,Female,1987-06-26,Married,3,Medical,3,0,1,2,Travel_Rarely,0,2017-06-25,Sales,Sales Executive,3,6827,11736,1,,3,19,2,4,1,2,3,2
+40351,E040351,632,Ojasvi,Bava,e040351@example.com,Male,1999-01-09,Married,3,Medical,24,0,1,2,Travel_Frequently,0,2022-01-23,Sales,Sales Representative,1,2508,57913,1,,3,13,3,4,4,3,3,3
+50863,E050863,1196,Nitesh,Ranganathan,e050863@example.com,Female,1990-12-31,Married,3,Life Sciences,1,1,0,1,Travel_Rarely,0,2012-03-18,Research & Development,Manufacturing Director,2,7001,43375,1,,3,13,2,4,4,2,2,2
+65410,E065410,1092,Urvashi,Nayak,e065410@example.com,Male,1983-02-26,Married,4,Technical Degree,20,4,4,1,Travel_Rarely,0,2015-01-21,Research & Development,Healthcare Representative,3,11475,65376,1,,4,20,6,4,1,4,3,3
+98466,E098466,510,Urmi,Narayanan,e098466@example.com,Male,1999-05-15,Single,1,Technical Degree,3,0,0,0,Travel_Frequently,0,2019-05-16,Research & Development,Research Scientist,1,3274,10360,0,2024-12-23,4,22,2,1,3,3,3,3
+83943,E083943,1562,Yochana,Ramakrishnan,e083943@example.com,Male,1997-08-01,Married,3,Life Sciences,1,1,0,1,Travel_Rarely,0,2015-08-01,Sales,Sales Executive,2,9514,91902,0,2020-05-29,3,11,4,1,2,4,3,2
+35641,E035641,8,Vedika,Behl,e035641@example.com,Male,1992-06-06,Single,2,Life Sciences,2,0,2,0,Travel_Frequently,0,2019-11-11,Research & Development,Laboratory Technician,1,3471,65168,1,,3,13,2,4,4,3,2,3
+76610,E076610,1599,Avni,Bhasin,e076610@example.com,Male,1982-03-27,Divorced,3,Technical Degree,27,5,4,1,Travel_Rarely,0,2020-09-19,Research & Development,Laboratory Technician,1,4582,11306,1,,3,12,0,2,4,3,3,4
+1046,E001046,1853,Aradhana,Chander,e001046@example.com,Male,1995-10-23,Single,4,Marketing,10,8,3,0,Travel_Frequently,0,2025-04-21,Sales,Sales Executive,2,4658,62762,1,,3,13,2,4,4,3,4,4
+97796,E097796,190,Ekanta,Shroff,e097796@example.com,Female,1995-05-11,Single,3,Medical,9,7,5,0,Travel_Rarely,0,2020-09-27,Research & Development,Laboratory Technician,1,4190,67381,0,2025-10-31,4,22,2,1,1,1,4,3
+5938,E005938,766,Jeevika,Narang,e005938@example.com,Male,1998-12-29,Divorced,3,Marketing,10,1,1,2,Travel_Rarely,0,2024-07-07,Sales,Sales Representative,1,2232,17111,1,,3,14,2,2,4,4,3,3
+57688,E057688,724,Tara,Sagar,e057688@example.com,Female,1985-08-17,Single,4,Life Sciences,1,0,1,0,Travel_Rarely,0,2017-09-10,Research & Development,Healthcare Representative,2,6243,46631,1,,3,13,4,4,3,3,2,4
+7896,E007896,1915,Suhani,Madan,e007896@example.com,Female,1989-10-11,Married,1,Medical,3,3,5,0,Travel_Rarely,1,2022-11-02,Sales,Sales Executive,2,8283,16259,1,,3,12,3,4,4,3,2,2
+87485,E087485,1011,Siya,Balay,e087485@example.com,Female,1995-09-21,Married,1,Life Sciences,1,1,0,1,Travel_Frequently,0,2021-02-23,Research & Development,Manufacturing Director,2,4759,13337,1,,3,12,1,1,3,3,3,3
+17571,E017571,91,Saumya,Parikh,e017571@example.com,Female,1965-05-10,Single,1,Life Sciences,1,7,16,0,Travel_Frequently,0,2022-04-20,Sales,Sales Executive,2,5489,96014,1,,3,11,2,3,1,4,2,3
+53065,E053065,1596,Indrajit,Dalal,e053065@example.com,Male,1989-04-13,Married,3,Life Sciences,28,1,0,2,Travel_Rarely,0,2015-12-10,Research & Development,Laboratory Technician,2,3467,44786,1,,3,17,3,3,2,4,2,4
+11142,E011142,580,Pranav,Kade,e011142@example.com,Female,1979-03-14,Married,3,Marketing,10,2,11,1,Travel_Rarely,1,2022-09-13,Sales,Sales Executive,3,8408,56628,1,,3,19,3,4,3,3,3,2
+96937,E096937,262,Meghana,Memon,e096937@example.com,Male,1982-01-27,Divorced,3,Medical,7,4,2,3,Non-Travel,0,2019-04-05,Research & Development,Research Scientist,1,1742,35554,1,,3,14,3,1,4,3,4,4
+50491,E050491,1542,Jai,Nadig,e050491@example.com,Male,1985-02-04,Married,3,Medical,2,4,3,1,Travel_Rarely,0,2023-11-11,Research & Development,Laboratory Technician,1,4968,87568,1,,3,14,3,2,3,1,3,2
+33223,E033223,1212,Deepa,Kannan,e033223@example.com,Male,1987-05-27,Married,4,Medical,2,5,4,3,Travel_Frequently,0,2025-10-14,Sales,Sales Executive,2,4322,44701,1,,3,12,2,2,2,4,3,3
+82507,E082507,21,Lucky,Nadig,e082507@example.com,Male,1995-09-13,Divorced,2,Life Sciences,5,0,3,2,Travel_Rarely,1,2020-05-27,Research & Development,Research Scientist,1,2991,81520,1,,3,12,5,2,3,4,2,4
+36297,E036297,632,Lucky,Dhaliwal,e036297@example.com,Male,2002-07-23,Married,3,Medical,24,0,0,2,Travel_Frequently,0,2023-09-26,Sales,Sales Representative,1,2477,24386,1,,3,13,5,4,4,3,3,3
+67925,E067925,1103,Eiravati,Date,e067925@example.com,Male,1992-09-15,Single,1,Life Sciences,3,0,0,0,Travel_Frequently,0,2018-09-10,Research & Development,Healthcare Representative,2,7848,38621,1,,3,17,1,4,4,4,2,3
+94405,E094405,620,Zilmil,Kala,e094405@example.com,Female,1992-06-20,Single,3,Medical,1,1,0,0,Travel_Rarely,0,2020-01-23,Sales,Sales Executive,2,5242,53944,1,,3,16,3,3,1,3,3,3
+84993,E084993,1492,Krisha,Badami,e084993@example.com,Male,1989-11-14,Married,1,Life Sciences,7,1,1,1,Travel_Rarely,0,2024-10-28,Sales,Sales Representative,1,2198,61371,1,,3,13,3,3,4,1,1,3
+62123,E062123,1216,Laksh,Goel,e062123@example.com,Male,1998-11-21,Married,4,Medical,19,1,1,3,Travel_Rarely,0,2020-07-17,Research & Development,Laboratory Technician,1,3332,40989,1,,3,12,2,1,1,3,1,2
+65744,E065744,1706,Imaran,Chad,e065744@example.com,Male,1984-03-13,Married,3,Medical,2,1,1,1,Travel_Rarely,1,2016-11-14,Sales,Sales Executive,2,8099,72584,1,,3,17,1,4,4,1,4,3
+40247,E040247,1880,Varsha,Baria,e040247@example.com,Female,1990-01-22,Married,4,Technical Degree,10,1,0,1,Travel_Rarely,1,2015-05-12,Sales,Sales Executive,2,4797,94902,1,,3,13,4,3,2,1,3,2
+16362,E016362,361,Mitali,Dugal,e016362@example.com,Male,1986-01-23,Married,2,Life Sciences,2,3,3,1,Non-Travel,0,2016-05-15,Sales,Sales Executive,2,5110,72979,1,,3,18,0,4,4,4,3,2
+55939,E055939,882,Dakshesh,Panchal,e055939@example.com,Male,1993-01-28,Divorced,3,Life Sciences,1,0,2,1,Non-Travel,0,2023-12-21,Research & Development,Laboratory Technician,1,2055,10324,1,,3,12,2,4,4,2,3,3
+28675,E028675,754,Ira,Balasubramanian,e028675@example.com,Male,1982-05-09,Married,3,Life Sciences,15,3,5,1,Travel_Frequently,0,2023-07-28,Sales,Sales Executive,2,7061,69862,1,,3,18,5,4,4,3,3,2
+23958,E023958,145,Patrick,Dube,e023958@example.com,Female,1975-01-28,Single,4,Medical,1,3,8,0,Travel_Frequently,0,2011-02-09,Research & Development,Healthcare Representative,3,7815,59481,1,,4,20,1,1,1,3,2,2
+7859,E007859,618,Pavani,Buch,e007859@example.com,Male,2000-02-14,Divorced,2,Medical,29,5,7,2,Travel_Rarely,0,2025-05-19,Sales,Sales Executive,2,4684,87025,1,,3,12,5,3,1,1,3,3
+94213,E094213,1422,Indira,Vyas,e094213@example.com,Female,1971-12-10,Single,3,Medical,1,6,8,0,Travel_Rarely,0,2004-09-22,Research & Development,Research Director,4,17567,43390,1,,3,19,3,4,4,4,2,3
+63352,E063352,544,Mahika,Rastogi,e063352@example.com,Male,1978-11-22,Married,2,Life Sciences,10,3,5,2,Travel_Rarely,0,2022-11-13,Research & Development,Research Scientist,1,2503,22311,1,,4,21,3,4,1,4,2,3
+50199,E050199,1258,Ekapad,Manne,e050199@example.com,Male,1978-04-25,Single,2,Technical Degree,2,5,7,0,Travel_Rarely,0,2025-05-06,Research & Development,Laboratory Technician,1,2895,55298,1,,3,11,4,2,4,3,2,2
+55239,E055239,1802,Unnati,Ahluwalia,e055239@example.com,Female,1985-05-01,Married,2,Life Sciences,2,4,3,1,Travel_Rarely,0,2021-08-26,Research & Development,Laboratory Technician,1,3605,86534,1,,3,17,5,1,3,4,2,3
+98341,E098341,1647,Bahadurjit,Dugar,e098341@example.com,Female,1997-04-17,Married,3,Medical,8,7,2,0,Travel_Rarely,0,2022-04-03,Research & Development,Research Scientist,1,3225,24921,1,,3,17,0,3,2,1,3,4
+13706,E013706,1507,Brijesh,Chandran,e013706@example.com,Male,1998-09-30,Single,3,Life Sciences,7,0,2,0,Travel_Frequently,0,2021-10-02,Sales,Sales Executive,2,4581,62579,1,,3,14,3,1,3,4,3,3
+13580,E013580,1200,Yasti,Narang,e013580@example.com,Male,1983-01-07,Single,4,Life Sciences,10,1,2,0,Travel_Rarely,1,2020-07-09,Research & Development,Research Scientist,1,2718,70669,0,2025-06-03,3,11,4,3,3,3,3,2
+34571,E034571,984,Nikita,Chaudhuri,e034571@example.com,Male,1988-10-12,Divorced,4,Life Sciences,3,6,2,1,Travel_Rarely,0,2015-12-17,Sales,Sales Executive,3,7558,13048,1,,3,13,2,4,4,2,4,3
+93622,E093622,1017,Baghyawati,Bakshi,e093622@example.com,Female,1994-03-19,Single,3,Medical,5,0,3,0,Travel_Frequently,0,2023-12-29,Research & Development,Laboratory Technician,1,2245,6869,0,2025-03-23,3,17,3,2,2,1,3,3
+2105,E002105,2022,Krishna,Talwar,e002105@example.com,Male,1984-10-13,Single,3,Life Sciences,9,2,15,0,Non-Travel,0,2018-08-01,Research & Development,Manager,5,18473,,1,,3,13,3,4,1,3,2,3
+74361,E074361,468,Yatan,Narayan,e074361@example.com,Female,1984-02-09,Single,5,Life Sciences,23,2,14,0,Travel_Rarely,0,2024-05-19,Research & Development,Research Director,4,15369,54362,1,,3,14,3,4,1,2,3,3
+85889,E085889,1641,Upasna,Pathak,e085889@example.com,Female,1984-07-18,Single,3,Life Sciences,16,6,16,0,Travel_Rarely,1,2022-07-19,Research & Development,Manufacturing Director,3,7554,86549,1,,3,15,2,3,3,4,2,3
+99907,E099907,355,Kashish,Sani,e099907@example.com,Male,1996-11-16,Single,2,Medical,29,0,1,0,Travel_Frequently,0,2019-07-16,Research & Development,Laboratory Technician,1,3288,61873,0,2022-03-02,3,11,2,2,3,2,4,2
+56430,E056430,1545,Ati,Chander,e056430@example.com,Male,1992-12-31,Single,3,Life Sciences,25,1,1,0,Travel_Rarely,0,2021-05-13,Research & Development,Manufacturing Director,2,4505,76657,1,,3,13,2,2,4,4,3,2
+86503,E086503,239,Hredhaan,Shanker,e086503@example.com,Male,1994-08-27,Divorced,3,Medical,9,1,0,2,Non-Travel,0,2012-10-17,Research & Development,Laboratory Technician,2,3040,54959,1,,3,11,4,1,3,1,3,3
+12470,E012470,1267,Zayan,Shetty,e012470@example.com,Male,1979-10-15,Married,3,Marketing,5,7,3,1,Travel_Rarely,0,2002-01-27,Sales,Manager,5,18041,,1,,3,11,5,2,2,3,3,3
+14779,E014779,455,Warda,Koshy,e014779@example.com,Male,1996-06-12,Single,5,Other,9,0,0,0,Travel_Rarely,0,2021-04-07,Research & Development,Laboratory Technician,1,3845,35080,1,,3,17,2,4,2,3,3,2
+27544,E027544,783,Dayita,Date,e027544@example.com,Male,1980-06-13,Single,2,Technical Degree,2,0,2,0,Travel_Rarely,0,2018-07-22,Sales,Sales Representative,2,5755,6952,1,,3,13,3,4,2,1,2,1
+97977,E097977,1216,Madhav,Vaidya,e097977@example.com,Male,1995-12-21,Married,4,Medical,19,1,0,3,Travel_Rarely,0,2019-02-23,Research & Development,Laboratory Technician,1,3036,90298,1,,3,12,2,1,2,3,3,2
+46123,E046123,1011,Gaurika,Lad,e046123@example.com,Female,1994-07-10,Married,1,Life Sciences,1,1,0,1,Travel_Frequently,0,2020-04-06,Research & Development,Manufacturing Director,2,4028,58984,1,,3,12,1,1,3,3,3,3
+49369,E049369,1520,Eesha,Raj,e049369@example.com,Female,1972-09-24,Divorced,4,Medical,11,3,11,1,Travel_Frequently,0,2011-08-28,Research & Development,Manager,4,16761,69400,1,,4,20,2,4,2,1,4,3
+1333,E001333,1309,Manya,Sampath,e001333@example.com,Male,1994-08-13,Married,2,Life Sciences,7,1,0,1,Travel_Rarely,0,2014-07-19,Research & Development,Laboratory Technician,2,4953,36590,0,2018-07-03,3,18,3,3,4,1,3,3
+2361,E002361,852,Ishaan,Shere,e002361@example.com,Male,1982-07-09,Single,3,Medical,4,9,4,0,Travel_Rarely,0,2019-11-20,Research & Development,Healthcare Representative,2,5869,85888,1,,3,12,2,2,4,4,2,3
+82418,E082418,1310,Vincent,Gopal,e082418@example.com,Male,1984-06-24,Single,3,Medical,23,0,0,0,Travel_Rarely,0,2019-01-28,Research & Development,Research Scientist,1,3785,15114,0,2021-11-29,3,13,2,1,3,1,3,3
+45149,E045149,518,Rachit,Butala,e045149@example.com,Male,1988-07-20,Single,4,Life Sciences,10,2,18,0,Travel_Rarely,1,2024-12-28,Research & Development,Manufacturing Director,2,3740,93535,1,,3,12,2,2,4,4,2,3
+7842,E007842,1006,Raghav,Ramakrishnan,e007842@example.com,Male,1988-06-18,Married,1,Medical,10,0,0,1,Travel_Frequently,0,2023-06-03,Research & Development,Research Scientist,1,2741,68579,1,,3,17,0,3,3,2,2,3
+86291,E086291,1555,Luke,Mammen,e086291@example.com,Female,1994-11-04,Married,2,Life Sciences,5,3,7,1,Travel_Rarely,0,2019-05-13,Research & Development,Research Scientist,2,5512,82105,1,,3,12,2,2,4,1,3,2
+36035,E036035,1527,Jackson,Vora,e036035@example.com,Female,1979-10-24,Married,3,Life Sciences,3,8,11,1,Travel_Rarely,0,2013-05-06,Sales,Manager,4,15102,52144,1,,3,12,2,2,3,4,4,3
+18146,E018146,1411,Eesha,Date,e018146@example.com,Female,1987-01-10,Single,3,Medical,11,4,6,0,Travel_Rarely,0,2023-02-20,Research & Development,Laboratory Technician,1,4142,32112,1,,3,18,6,3,1,1,3,3
+70746,E070746,1111,Charvi,Bajwa,e070746@example.com,Male,1997-03-31,Divorced,3,Medical,1,1,2,2,Travel_Frequently,0,2025-02-27,Research & Development,Laboratory Technician,1,2766,88034,0,2025-08-15,3,15,2,2,1,1,3,2
+78804,E078804,1007,Azaan,Pall,e078804@example.com,Male,1981-11-05,Divorced,2,Medical,7,6,5,1,Travel_Rarely,0,2016-04-07,Research & Development,Manufacturing Director,3,11083,36233,1,,3,13,3,3,4,2,3,3
+94236,E094236,661,Krish,Walla,e094236@example.com,Male,1981-08-10,Divorced,4,Other,6,4,19,1,Travel_Rarely,1,2024-02-26,Research & Development,Research Director,4,16595,19802,1,,3,14,3,4,2,3,2,2
+52491,E052491,1015,Avi,Puri,e052491@example.com,Female,1997-04-16,Married,2,Life Sciences,8,0,0,3,Travel_Rarely,1,2016-02-02,Research & Development,Research Director,3,11789,50287,1,,3,12,4,1,2,3,2,4
+88895,E088895,1173,Amrita,Mannan,e088895@example.com,Male,2001-12-22,Single,3,Medical,24,8,3,0,Travel_Rarely,0,2022-08-07,Research & Development,Laboratory Technician,1,3954,32006,1,,4,22,2,2,4,4,3,3
+59269,E059269,1516,Libni,Babu,e059269@example.com,Male,1993-05-25,Single,3,Medical,10,2,6,0,Travel_Rarely,0,2021-04-14,Research & Development,Manager,3,11279,98354,1,,4,25,5,4,3,2,4,3
+19663,E019663,1939,Logan,Kapur,e019663@example.com,Female,1992-08-06,Single,2,Life Sciences,5,3,4,0,Travel_Frequently,1,2022-03-17,Research & Development,Research Scientist,1,2446,11358,0,2023-09-30,3,14,2,3,1,1,3,3
