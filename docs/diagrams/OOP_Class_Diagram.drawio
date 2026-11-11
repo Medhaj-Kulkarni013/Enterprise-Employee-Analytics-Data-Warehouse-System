@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-08T00:00:00.000Z" agent="OpenAI" version="24.7.17" type="device">
+  <diagram id="oop-blueprint" name="OOP Class Diagram">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1650" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="layer_core" value="&lt;b&gt;CORE LAYER&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2ff;strokeColor=#2864b4;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="520" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_entity" value="&lt;b&gt;ENTITY LAYER&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf8f1;strokeColor=#23845b;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="520" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_mgr" value="&lt;b&gt;MANAGER LAYER&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5e8;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="140" width="570" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_pipe" value="&lt;b&gt;PIPELINE LAYER&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4efff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="140" width="620" height="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="&lt;b&gt;DatabaseConnection&lt;/b&gt;&lt;hr&gt;Singleton per class&lt;br&gt;Shared MySQL connection pool&lt;br&gt;cursor() | transaction()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9e8ff;strokeColor=#2864b4;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="420" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="exc" value="&lt;b&gt;AppError&lt;/b&gt;&lt;hr&gt;Base application exception&lt;br&gt;├─ DatabaseError&lt;br&gt;├─ ValidationError&lt;br&gt;├─ NotFoundError&lt;br&gt;└─ DuplicateError" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9e8ff;strokeColor=#2864b4;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="420" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="baseent" value="&lt;b&gt;&lt;i&gt;BaseEntity (abstract)&lt;/i&gt;&lt;/b&gt;&lt;hr&gt;validate() [abstract]&lt;br&gt;to_dict() [abstract]&lt;br&gt;__eq__() | __repr__()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f3e6;strokeColor=#23845b;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="420" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="emp" value="&lt;b&gt;Employee&lt;/b&gt;&lt;hr&gt;Private fields + properties&lt;br&gt;validate() | promote() | transfer()&lt;br&gt;from_row() [factory method]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f3e6;strokeColor=#23845b;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="455" width="420" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="proj" value="&lt;b&gt;Project&lt;/b&gt;&lt;hr&gt;validate() | is_active()&lt;br&gt;duration_days() | to_dict()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f3e6;strokeColor=#23845b;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="655" width="420" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="rev" value="&lt;b&gt;Review&lt;/b&gt;&lt;hr&gt;validate() | overall_satisfaction()&lt;br&gt;is_high_performer() | to_dict()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f3e6;strokeColor=#23845b;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="835" width="420" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bm" value="&lt;b&gt;BaseManager&lt;/b&gt;&lt;hr&gt;Inherits DatabaseConnection&lt;br&gt;get_connection()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="230" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cm" value="&lt;b&gt;&lt;i&gt;CrudManager (abstract)&lt;/i&gt;&lt;/b&gt;&lt;hr&gt;create() | get_by_id()&lt;br&gt;update() | delete()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="420" width="470" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="em" value="&lt;b&gt;EmployeeManager&lt;/b&gt;&lt;hr&gt;CRUD operations for Employee" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="635" width="470" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pm" value="&lt;b&gt;ProjectManager&lt;/b&gt;&lt;hr&gt;CRUD operations for Project" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="780" width="470" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rm" value="&lt;b&gt;ReviewManager&lt;/b&gt;&lt;hr&gt;CRUD operations for Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="925" width="470" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="am" value="&lt;b&gt;AnalyticsManager&lt;/b&gt;&lt;hr&gt;Employee summary&lt;br&gt;Department analytics&lt;br&gt;Attrition + performance analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe8c7;strokeColor=#b36a16;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1070" width="470" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ps" value="&lt;b&gt;&lt;i&gt;PipelineStep (abstract)&lt;/i&gt;&lt;/b&gt;&lt;hr&gt;Template Method: run()&lt;br&gt;validate_input() → execute() → validate_output()&lt;br&gt;execute() [abstract]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eadfff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="230" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pre" value="&lt;b&gt;Preprocessor&lt;/b&gt;&lt;hr&gt;Existing Member C implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eadfff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="450" width="520" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="syn" value="&lt;b&gt;Synthesizer&lt;/b&gt;&lt;hr&gt;Existing Member C implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eadfff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="600" width="520" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="val" value="&lt;b&gt;DataValidator&lt;/b&gt;&lt;hr&gt;Existing pipeline validation class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eadfff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="750" width="520" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="doc" value="&lt;b&gt;DocumentationGenerator&lt;/b&gt;&lt;hr&gt;Creates mappings + data profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eadfff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="900" width="520" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="planned" value="&lt;b&gt;Planned / team coordination&lt;/b&gt;&lt;hr&gt;HistoryGenerator&lt;br&gt;StagingLoader&lt;br&gt;EtlRunner&lt;br&gt;Confirm ownership + inheritance before implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3ecff;strokeColor=#7350aa;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1050" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="emp" target="baseent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="proj" target="baseent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="rev" target="baseent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="cm" target="bm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="em" target="cm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="pm" target="cm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="rm" target="cm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="am" target="bm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="pre" target="ps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="inherits" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="syn" target="ps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="&lt;b&gt;EMPLOYEE ANALYTICS SYSTEM — OOP CLASS DIAGRAM&lt;/b&gt;&lt;br&gt;Member B architecture blueprint | Initial draft — confirm pipeline responsibilities with the team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffffff;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="35" width="2320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="notes" value="&lt;b&gt;Design patterns:&lt;/b&gt; Singleton — DatabaseConnection | Repository/DAL — managers | Factory Method — Employee.from_row | Template Method — PipelineStep.run&lt;br&gt;&lt;b&gt;OOP pillars:&lt;/b&gt; Encapsulation, Abstraction, Inheritance, Polymorphism&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; Existing pipeline implementation belongs to Member C; planned pipeline classes require team coordination." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c7d1df;fontSize=15;align=left;verticalAlign=middle;spacingLeft=12;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1530" width="2320" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

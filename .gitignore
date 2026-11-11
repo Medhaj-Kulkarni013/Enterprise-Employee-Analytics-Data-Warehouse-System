@@ -1,0 +1,45 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+certificates/
+*.pem
+*.key
+*.crt
+
+# Generated datasets and reports
+data/raw/*
+data/processed/*
+data/synthetic/*
+reports/*
+
+# Keep directory placeholders and the small development sample
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+!data/synthetic/employees_sample_500.csv
+!reports/.gitkeep
+
+# Generated documentation artifacts
+
+# Streamlit and local tooling
+.streamlit/
+.cache/
+.DS_Store
+Thumbs.db
+.vscode/

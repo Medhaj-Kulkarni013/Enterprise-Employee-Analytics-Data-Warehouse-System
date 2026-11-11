@@ -1,0 +1,58 @@
+{
+    "education_level": {
+        "1": "Below College",
+        "2": "College",
+        "3": "Bachelor",
+        "4": "Master",
+        "5": "Doctor"
+    },
+    "performance_rating": {
+        "1": "Low",
+        "2": "Good",
+        "3": "Excellent",
+        "4": "Outstanding"
+    },
+    "job_satisfaction": {
+        "1": "Low",
+        "2": "Medium",
+        "3": "High",
+        "4": "Very High"
+    },
+    "environment_satisfaction": {
+        "1": "Low",
+        "2": "Medium",
+        "3": "High",
+        "4": "Very High"
+    },
+    "relationship_satisfaction": {
+        "1": "Low",
+        "2": "Medium",
+        "3": "High",
+        "4": "Very High"
+    },
+    "job_involvement": {
+        "1": "Low",
+        "2": "Medium",
+        "3": "High",
+        "4": "Very High"
+    },
+    "work_life_balance": {
+        "1": "Bad",
+        "2": "Good",
+        "3": "Better",
+        "4": "Best"
+    },
+    "job_level": {
+        "1": "Level 1",
+        "2": "Level 2",
+        "3": "Level 3",
+        "4": "Level 4",
+        "5": "Level 5"
+    },
+    "stock_option_level": {
+        "0": "No Stock Options",
+        "1": "Level 1",
+        "2": "Level 2",
+        "3": "Level 3"
+    }
+}
