@@ -23,6 +23,27 @@ The application supports
 employee onboarding, tracked employment changes, project and assignment
 management, performance reviews, SCD Type 2 warehouse loading, and analytics.
 
+### Streamlit deployment
+
+For Streamlit Cloud or another Streamlit deployment, define these values in
+the deployment's secrets configuration instead of relying on `.env`:
+
+```toml
+DB_HOST = "your-aiven-host"
+DB_PORT = 3306
+DB_USER = "your-user"
+DB_PASSWORD = "your-password"
+DB_NAME = "oltp"
+DB_SSL_CA = """-----BEGIN CERTIFICATE-----
+...
+-----END CERTIFICATE-----"""
+```
+
+`config/database.py` supports both local certificate paths and PEM certificate
+contents. When `DB_SSL_CA` contains PEM text, the application writes it to a
+temporary `.pem` file for `mysql-connector-python` and enables SSL certificate
+and identity verification through the shared database connection manager.
+
 ### Frontend structure
 
 ```text
