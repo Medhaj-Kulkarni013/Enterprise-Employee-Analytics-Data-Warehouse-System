@@ -35,7 +35,7 @@ class TestOOPBlueprint(unittest.TestCase):
         for name in ("create", "get_by_id", "get_all", "update", "delete", "update_employment"):
             self.assertIn(name, methods)
         source = ast.get_source_segment((ROOT / "managers/employee_manager.py").read_text(), methods["update_employment"])
-        self.assertIn("sp_scd2_update_employee", source)
+        self.assertIn("_sync_employee_dimension", source)
 
 if __name__ == "__main__":
     unittest.main()

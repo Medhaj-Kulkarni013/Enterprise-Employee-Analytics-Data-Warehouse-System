@@ -60,3 +60,55 @@ else:
         except Exception as error:
             save_feedback("review_feedback", "error", f"Review submission failed: {feedback_message(error)}")
         st.rerun()
+
+    st.divider()
+    st.subheader("Existing Performance Reviews")
+
+    try:
+        reviews = ReviewManager().get_all(limit=100)
+
+        if reviews:
+            employee_names = {
+                employee_id: label
+                for label, employee_id in employees.items()
+            }
+            project_names = {
+                project_id: label
+                for label, project_id in projects.items()
+            }
+
+            review_rows = []
+
+            for review in reviews:
+                review_rows.append({
+                    "Review ID": review.review_id,
+                    "Employee": employee_names.get(
+                        review.employee_id, review.employee_id
+                    ),
+                    "Reviewer": employee_names.get(
+                        review.reviewer_id, "None"
+                    ),
+                    "Project": project_names.get(
+                        review.project_id, "None"
+                    ),
+                    "Review Date": review.review_date,
+                    "Rating": review.performance_rating,
+                    "Job Satisfaction": review.job_satisfaction,
+                    "Environment Satisfaction": review.environment_satisfaction,
+                    "Relationship Satisfaction": review.relationship_satisfaction,
+                    "Work-Life Balance": review.work_life_balance,
+                    "Job Involvement": review.job_involvement,
+                    "Salary Hike (%)": review.percent_salary_hike,
+                    "Training Sessions": review.training_times_last_year,
+                })
+
+            st.dataframe(
+                review_rows,
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            st.info("No performance reviews found.")
+
+    except Exception as error:
+        show_error(error)
