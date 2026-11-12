@@ -57,6 +57,37 @@ class EmployeeManager(CrudManager):
     def __init__(self):
         super().__init__()
 
+
+
+    @staticmethod
+    def _sync_employee_dimension(cursor, employee_id):
+        """Synchronize one employee's SCD2 and Type 1 warehouse rows."""
+        cursor.callproc("dw.sp_sync_employee_scd2", (employee_id,))
+
+        for result in cursor.stored_results():
+            result.fetchall()
+
+    @staticmethod
+    def _raise_database_error(error, context, duplicate_message=None):
+        """Preserve the underlying MySQL error when the transaction wraps it."""
+        original = getattr(error, "original_error", None)
+
+        if isinstance(original, mysql.connector.IntegrityError):
+            if original.errno == 1062 and duplicate_message:
+                raise DuplicateError(duplicate_message, original) from error
+
+            detail = (
+                f"MySQL error {original.errno} "
+                f"(SQLSTATE {original.sqlstate}): {original.msg}"
+            )
+        else:
+            detail = getattr(error, "message", str(error))
+
+        raise DatabaseError(
+            f"{context}: {detail}", original or error
+        ) from error
+
+
     # ---------------------------------------------------------
     # CREATE
     # ---------------------------------------------------------
@@ -111,22 +142,23 @@ class EmployeeManager(CrudManager):
                         data["monthly_income"],
                     ),
                 )
+                self._sync_employee_dimension(cursor, employee_id)
+            # with self.transaction() as cursor:
+            #     cursor.callproc("dw.sp_run_full_etl")
+
+            #     for result in cursor.stored_results():
+            #         result.fetchall()
 
             return employee_id
 
-        except mysql.connector.IntegrityError as error:
-            if error.errno == 1062:
-                raise DuplicateError(
-                    "Employee code or email already exists.",
-                    error
-                ) from error
+        except DatabaseError as error:
+            self._raise_database_error(
+                error,
+                "Employee creation failed",
+                "Employee code or email already exists."
+            )
 
-            raise DatabaseError(
-                "Employee creation failed due to a database constraint.",
-                error
-            ) from error
-
-        except (ValidationError, DuplicateError, DatabaseError):
+        except (ValidationError, DuplicateError):
             raise
 
         except Exception as error:
@@ -134,6 +166,7 @@ class EmployeeManager(CrudManager):
                 "Unexpected error while creating employee.",
                 error
             ) from error
+
 
     # ---------------------------------------------------------
     # READ
@@ -284,21 +317,22 @@ class EmployeeManager(CrudManager):
 
                 cursor.execute(query, values)
 
+                self._sync_employee_dimension(cursor, employee_id)
+
+
+
+
+
             return True
 
-        except mysql.connector.IntegrityError as error:
-            if error.errno == 1062:
-                raise DuplicateError(
-                    "The email address is already assigned to another employee.",
-                    error
-                ) from error
+        except DatabaseError as error:
+            self._raise_database_error(
+                error,
+                "Employee update failed",
+                "The email address is already assigned to another employee."
+            )
 
-            raise DatabaseError(
-                "Employee update violated a database constraint.",
-                error
-            ) from error
-
-        except (ValidationError, NotFoundError, DuplicateError, DatabaseError):
+        except (ValidationError, NotFoundError, DuplicateError):
             raise
 
         except Exception as error:
@@ -306,6 +340,8 @@ class EmployeeManager(CrudManager):
                 "Unexpected error while updating employee.",
                 error
             ) from error
+
+
 
     # ---------------------------------------------------------
     # DELETE
@@ -409,9 +445,30 @@ class EmployeeManager(CrudManager):
                     FROM {self.TABLE} WHERE employee_id=%s FOR UPDATE""",
                     (employee_id,),
                 )
+
                 current = cursor.fetchone()
                 if current is None:
                     raise NotFoundError(f"Employee with ID {employee_id} was not found.")
+
+
+                cursor.execute(
+                    """
+                    SELECT MAX(effective_date) AS latest_effective_date
+                    FROM oltp.employee_change_log
+                    WHERE employee_id = %s
+                    """,
+                    (employee_id,)
+                )
+
+                latest_event = cursor.fetchone()["latest_effective_date"]
+
+                if latest_event is not None and effective_date <= latest_event:
+                    raise ValidationError(
+                        "Effective date must be later than the employee's latest "
+                        f"recorded employment change ({latest_event})."
+                    )
+
+
                 state = {
                     "department_id": current["department_id"],
                     "job_role_id": current["job_role_id"],
@@ -450,22 +507,25 @@ class EmployeeManager(CrudManager):
                     ),
                 )
                 # Keep OLTP update, immutable audit event and SCD2 version change atomic.
-                cursor.callproc(
-                    "dw.sp_scd2_update_employee",
-                    (employee_id, effective_date),
-                )
+                self._sync_employee_dimension(cursor, employee_id)
             return True
-        except mysql.connector.IntegrityError as error:
-            if error.errno == 1062:
-                raise DuplicateError(
-                    "An employment change already exists for this employee and date.",
-                    error,
-                ) from error
-            raise DatabaseError("Employment update violated a database constraint.", error) from error
-        except (ValidationError, NotFoundError, DuplicateError, DatabaseError):
+
+
+        except DatabaseError as error:
+            self._raise_database_error(
+                error,
+                "Employment update failed",
+                "An employment change already exists for this employee and date."
+            )
+
+        except (ValidationError, NotFoundError, DuplicateError):
             raise
+
         except Exception as error:
-            raise DatabaseError("Unexpected employment update failure.", error) from error
+            raise DatabaseError(
+                "Unexpected employment update failure.",
+                error
+            ) from error
 
     def get_change_history(self, employee_id):
         """Return chronological employment changes for an employee."""

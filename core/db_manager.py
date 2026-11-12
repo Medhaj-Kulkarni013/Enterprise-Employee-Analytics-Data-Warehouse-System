@@ -150,12 +150,26 @@ class DatabaseConnection:
             if connection is not None:
                 connection.rollback()
 
-            if isinstance(error, (DatabaseError,)):
+            if isinstance(error, DatabaseError):
                 raise
-            # Preserve domain exceptions (ValidationError, NotFoundError, etc.)
-            # while still guaranteeing rollback.
-            if error.__class__.__module__.startswith(("core.", "managers.", "models.")):
+
+            # Preserve domain exceptions without wrapping them.
+            if error.__class__.__module__.startswith(
+                ("core.", "managers.", "models.")
+            ):
                 raise
+
+            # Preserve the original MySQL error details.
+            if isinstance(error, mysql.connector.Error):
+                detail = (
+                    f"MySQL error {error.errno} "
+                    f"(SQLSTATE {error.sqlstate}): {error.msg}"
+                )
+
+                raise DatabaseError(
+                    f"Transaction failed: {detail}", error
+                ) from error
+
             raise DatabaseError("Transaction failed", error) from error
 
         finally:

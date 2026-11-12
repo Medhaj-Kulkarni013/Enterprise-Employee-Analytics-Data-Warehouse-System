@@ -163,6 +163,52 @@ def render_employment_change(departments, roles, employees):
         st.rerun()
 
 
+
+
+    # Display chronological employment history
+    st.divider()
+    st.subheader("Employment History")
+
+    try:
+        history = EmployeeManager().get_change_history(employees[selected])
+
+        if history:
+            history_display = []
+
+            for row in history:
+                history_display.append({
+                    "Effective Date": row["effective_date"],
+                    "Change Type": row["change_type"],
+                    "Department": next(
+                        (name for name, dept_id in departments.items()
+                         if dept_id == row["department_id"]),
+                        row["department_id"],
+                    ),
+                    "Job Role": next(
+                        (name for name, role_id in roles.items()
+                         if role_id == row["job_role_id"]),
+                        row["job_role_id"],
+                    ),
+                    "Job Level": row["job_level"],
+                    "Monthly Income": row["monthly_income"],
+                })
+
+            st.dataframe(
+                history_display,
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            st.info("No employment history found for this employee.")
+
+    except Exception as error:
+        show_error(error)
+
+
+
+
+
+
 def main():
     departments = department_options()
     roles = role_options()
