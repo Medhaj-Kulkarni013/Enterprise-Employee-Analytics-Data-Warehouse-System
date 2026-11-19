@@ -64,24 +64,31 @@ class AnalyticsManager(BaseManager):
         """
         return self._fetch_all(query)
 
-    def get_top_performers(self, department_id=None):
-        """Return top performers from the reference DENSE_RANK analytics view."""
-        params = ()
-        where = ""
+    def get_top_performers(self, department_id=None, year_number=None, top_n=5):
+        """Return top N performers per department/year from the DENSE_RANK analytics view."""
+        clauses = ["rank_in_dept <= %s"]
+        params = [int(top_n)]
         if department_id is not None:
             self._validate_department_id(department_id)
-            where = "WHERE department_name = (SELECT department_name FROM dw.Dim_Department WHERE department_id = %s)"
-            params = (department_id,)
+            clauses.append(
+                "department_name = (SELECT department_name FROM dw.Dim_Department WHERE department_id = %s)"
+            )
+            params.append(department_id)
+        if year_number is not None:
+            clauses.append("year_number = %s")
+            params.append(int(year_number))
+        where = "WHERE " + " AND ".join(clauses)
         query = f"""
-            SELECT year_number, department_name, employee_id, employee_code,
+            SELECT year_number, department_name, rank_in_dept, employee_id, employee_code,
                    full_name, job_role_name, job_level, performance_rating,
-                   percent_salary_hike, performance_score, rank_in_dept
+                   percent_salary_hike, performance_score
             FROM dw.vw_top_performers_by_dept
             {where}
             ORDER BY year_number DESC, department_name, rank_in_dept, employee_id
         """
-        return self._fetch_all(query, params)
+        return self._fetch_all(query, tuple(params))
 
+    
     def get_year_over_year_performance(self):
         """Return the reference view's department-level YoY metrics."""
         return self._fetch_all(

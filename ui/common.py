@@ -5,6 +5,7 @@ import streamlit as st
 from config.database import get_database_config
 from core.db_manager import DatabaseConnection
 from core.exceptions import AppError
+from ui.auth import AuthService
 
 
 @st.cache_resource
@@ -27,8 +28,10 @@ def query_rows(query, params=()):
 
 
 def setup_page(title, icon, description):
-    """Apply consistent page configuration and heading."""
-    st.set_page_config(page_title=title, page_icon=icon, layout="wide")
+    """Apply consistent page heading and defense-in-depth RBAC guard."""
+    if not hasattr(st, "navigation"):
+        st.set_page_config(page_title=title, page_icon=icon, layout="wide")
+    AuthService.enforce(title, render_sidebar=not hasattr(st, "navigation"))
     st.title(f"{icon} {title}")
     st.caption(description)
 
